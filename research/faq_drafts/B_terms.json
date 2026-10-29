@@ -1,0 +1,220 @@
+[
+ {
+  "term": "学費Navi",
+  "alias": [
+   "学費ナビ"
+  ],
+  "def": "学費の金額・期限を確認して納め、延納や返金の手続きもする専用Webサイト。K-Supportの「Apps」から入る。",
+  "src": [
+   {
+    "l": "慶應義塾 【学部】学費",
+    "u": "https://www.keio.ac.jp/ja/admissions/fees/"
+   }
+  ]
+ },
+ {
+  "term": "学研災",
+  "alias": [
+   "学生教育研究災害傷害保険",
+   "学研賠"
+  ],
+  "def": "授業・行事・課外活動中や通学中の不慮の事故によるケガに備える保険。保険料は大学が負担している。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.8",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "塾生サイト 保険",
+    "u": "https://www.students.keio.ac.jp/com/life/health/insurance.html"
+   }
+  ]
+ },
+ {
+  "term": "学外行事届",
+  "alias": [
+   "海外活動申請書"
+  ],
+  "def": "学外の合宿・対外試合・催物などの前に出す届。出さないと学研災の対象外になることがある。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.7",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "在籍確認シール",
+  "alias": [
+   "シール"
+  ],
+  "def": "学生証カードの裏に貼るシール。年度ごとの更新はなく、期限が切れる人にだけ新しいものが配られる。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.6",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "保証人",
+  "alias": [
+   "保証人ID"
+  ],
+  "def": "本人の学費と身上の責任を負う人。原則は父か母。学費Naviなどには保証人IDでログインする。",
+  "src": [
+   {
+    "l": "塾生サイト 氏名・住所・保証人変更",
+    "u": "https://www.students.keio.ac.jp/com/procedure/register/apply.html"
+   }
+  ]
+ },
+ {
+  "term": "延納",
+  "alias": [
+   "授業料延納",
+   "延納申請"
+  ],
+  "def": "やむを得ない事情で学費を期日に払えないとき、納入を延ばしてもらう申請。2026年度は学費Naviで出す。",
+  "src": [
+   {
+    "l": "塾生サイト 授業料等延納申請",
+    "u": "https://www.students.keio.ac.jp/com/scholarships/tuition/extension.html"
+   }
+  ]
+ },
+ {
+  "term": "慶應ID(keio.jp)",
+  "alias": [
+   "keio.jp",
+   "慶應ID",
+   "アクティベーション"
+  ],
+  "def": "慶應のほぼ全サービスに入る共通のID。最初に16桁のキーで登録する作業をアクティベーションと呼ぶ。",
+  "src": [
+   {
+    "l": "湘南藤沢情報センター FAQ",
+    "u": "https://www.sfc.itc.keio.ac.jp/ja/keiojp_manual_faq2.html"
+   }
+  ]
+ },
+ {
+  "term": "多要素認証(MFA)",
+  "alias": [
+   "MFA",
+   "パスキー",
+   "二段階認証"
+  ],
+  "def": "パスワードに加え、スマホなどでもう一度本人確認をする仕組み。通学課程の学生は2026年2月9日から必須。",
+  "src": [
+   {
+    "l": "慶應義塾 ITC お知らせ",
+    "u": "https://www.itc.keio.ac.jp/ja/news_20260116_keiojp_okta.html"
+   }
+  ]
+ },
+ {
+  "term": "慶應メール",
+  "alias": [
+   "@keio.jp",
+   "学生メール"
+  ],
+  "def": "keio.jpの学生用メール(@keio.jp)。大学からの連絡を受け、教員や事務室へ連絡するときにも使う。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.12",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "CNS",
+  "alias": [
+   "シーエヌエス",
+   "キャンパスネットワーク"
+  ],
+  "def": "SFCのキャンパスネットワークシステム。学内Wi-Fiなどの土台で、窓口は湘南藤沢情報センター(ミュー館1階)。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.12",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "心身ウェルネスセンター",
+  "alias": [
+   "保健管理センター",
+   "学生相談",
+   "診療所"
+  ],
+  "def": "アルファ館2階。保健管理センター・湘南藤沢診療所・学生相談(カウンセリング)が入っている。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.11",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "保健管理センター 湘南藤沢分室",
+    "u": "https://www.hcc.keio.ac.jp/ja/admissions/sfc.html"
+   }
+  ]
+ },
+ {
+  "term": "学生健保",
+  "alias": [
+   "学生健康保険互助組合",
+   "医療給付"
+  ],
+  "def": "正規生が入学と同時に入る互助組織。保険診療の自己負担の一部を「医療給付」として給付する。",
+  "src": [
+   {
+    "l": "塾生サイト 学生健保",
+    "u": "https://www.students.keio.ac.jp/com/life/health/"
+   }
+  ]
+ },
+ {
+  "term": "協生環境推進室",
+  "alias": [
+   "協生環境"
+  ],
+  "def": "多様性を認め合う環境づくりを進める全学の組織。障害のある学生の支援では後方支援を担う。",
+  "src": [
+   {
+    "l": "慶應義塾 障害のある学生を支援するためのガイドライン",
+    "u": "https://www.diversity.keio.ac.jp/ease/guideline.html"
+   }
+  ]
+ },
+ {
+  "term": "保守管理室",
+  "alias": [
+   "湘南コミュニティー"
+  ],
+  "def": "アルファ館1階にある。持ち主不明の拾得物の保管のほか、貸しロッカーや周辺駐車場の相談を受ける。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.7",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.10",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "学割証",
+  "alias": [
+   "JR学割"
+  ],
+  "def": "JR各社共通の学生割引の証明書。コンビニでは出せず、学内の証明書発行機でだけ発行できる。",
+  "src": [
+   {
+    "l": "塾生サイト 証明書の発行",
+    "u": "https://www.students.keio.ac.jp/com/procedure/certificate/issue.html"
+   }
+  ]
+ }
+]

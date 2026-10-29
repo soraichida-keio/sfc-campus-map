@@ -1,0 +1,317 @@
+[
+ {
+  "term": "履修上限",
+  "alias": [
+   "履修上限単位",
+   "上限単位",
+   "キャップ"
+  ],
+  "def": "1学期に履修できる単位の上限。進級・卒業の単位で20単位、自由科目を含めて30単位(2026年度)。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.15",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "分野",
+  "alias": [
+   "A欄申告",
+   "科目分野"
+  ],
+  "def": "学則に基づいて科目を種類ごとに分けたもの。総環設置科目は、科目を登録すると自動で割り振られる。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.15",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "登録済科目",
+  "alias": [
+   "登録済み科目",
+   "履修確認画面"
+  ],
+  "def": "K-Support の上部にある画面。申告した科目が正しく登録されたかを確認する。反映は翌日。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.13",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.14",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "履修取消",
+  "alias": [
+   "取消申告",
+   "履修登録取消"
+  ],
+  "def": "登録した科目をやめる手続き。取消期間にだけでき、成績はつかず、体育2・3など取消できない科目もある。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.14",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "追加許可",
+  "alias": [
+   "追加抽選",
+   "履修制限あり(追加許可あり)"
+  ],
+  "def": "履修不許可だった科目に、二次期間中に授業担当者の判断で出る許可。必ず出るとは限らない。",
+  "src": [
+   {
+    "l": "総環設置科目の履修者選抜(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/restriction.html"
+   }
+  ]
+ },
+ {
+  "term": "クラス指定科目",
+  "alias": [
+   "指定クラス"
+  ],
+  "def": "履修する曜日・時限がクラスで決まっている科目。入学1学期目は指定クラスで自動登録される。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.16",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "基盤科目",
+  "alias": [
+   "基盤"
+  ],
+  "def": "学部を問わず全員の土台になる科目群。言語、データサイエンス、情報技術基礎、ウェルネスの4つ。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.27",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "先端科目",
+  "alias": [
+   "先端"
+  ],
+  "def": "研究会や卒業プロジェクトへ導く専門的な科目群。卒業には先端科目30単位以上が必要。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.27",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.32",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "特設科目",
+  "alias": [
+   "特設"
+  ],
+  "def": "企業や社会との連携などで開かれる科目の区分。卒業の124単位に含められるのは20単位まで。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.30",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.32",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "他学部等設置科目",
+  "alias": [
+   "他学部科目",
+   "他学部"
+  ],
+  "def": "総合政策・環境情報学部以外の学部などが開く科目。卒業単位に含められるのは60単位まで。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.22",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.32",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "大学院先取り科目",
+  "alias": [
+   "先取り科目",
+   "先取り履修"
+  ],
+  "def": "学部在学中に取れる大学院の科目。自由科目としてのみ履修でき、学部の卒業単位にはならない。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.21",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "卒プロメンター",
+  "alias": [
+   "メンター"
+  ],
+  "def": "卒業プロジェクトの担当教員。総環の専任教員に限られ、所定の期間に申請して承認を受ける。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.19",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "履修上の注意(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/"
+   }
+  ]
+ },
+ {
+  "term": "補講日",
+  "alias": [
+   "補講",
+   "補講・試験日"
+  ],
+  "def": "休講になった授業の補いを行う日。原則として土曜日や、学事日程で指定された日に実施される。",
+  "src": [
+   {
+    "l": "休講・補講・任意設定講義(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/canceled.html"
+   }
+  ]
+ },
+ {
+  "term": "追加試験(追試)",
+  "alias": [
+   "追試",
+   "追加試験"
+  ],
+  "def": "病気などで定期試験を受けられなかった人が、申請して許可されたときに受ける試験。理由ごとに書類が必要。",
+  "src": [
+   {
+    "l": "試験・レポート(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/exam/index.html"
+   }
+  ]
+ },
+ {
+  "term": "評語(S・A・B・C・D)",
+  "alias": [
+   "評語",
+   "成績評語",
+   "エス"
+  ],
+  "def": "成績の5段階。S〜Cが合格で、Dが不合格(2017年度以降)。科目によってはP・Fの2種もある。",
+  "src": [
+   {
+    "l": "成績評語について(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/com/class/grade/guideline.html"
+   }
+  ]
+ },
+ {
+  "term": "GPA",
+  "alias": [
+   "ジーピーエー",
+   "学期GPA",
+   "累積GPA"
+  ],
+  "def": "評語を4.0〜0.0の点数にして単位数で平均した値。学期GPAと累積GPAがあり、自由科目は含まない。",
+  "src": [
+   {
+    "l": "成績発表(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/com/class/grade/index.html"
+   }
+  ]
+ },
+ {
+  "term": "GIGAプログラム",
+  "alias": [
+   "ギガ",
+   "GIGA"
+  ],
+  "def": "英語で学ぶプログラム。学部・学年を問わず科目を履修でき、要件を満たすとサティフィケートが出る。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.28",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "GIGAプログラム(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/giga-certificate.html"
+   }
+  ]
+ },
+ {
+  "term": "パースペクティブ",
+  "alias": [
+   "EBA",
+   "HS",
+   "SBC"
+  ],
+  "def": "分野をまたいだ学びをガイドする仕組み。EBA・HS・SBCの3つがあり、修了すると修了証が出る。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.28",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "パースペクティブ(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/perspective.html"
+   }
+  ]
+ },
+ {
+  "term": "資格認定試験",
+  "alias": [
+   "認定試験",
+   "言語認定試験"
+  ],
+  "def": "すでに学んだ言語の力を認める試験。合格すると上のレベルの語学科目を履修できる(英語などを除く)。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.18",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "言語コミュニケーション科目 資格認定試験・TOEFL-ITP",
+    "u": "https://language.sfc.keio.ac.jp/guidance/"
+   }
+  ]
+ },
+ {
+  "term": "インテンシブ",
+  "alias": [
+   "語学インテンシブ",
+   "英語インテンシブ"
+  ],
+  "def": "少人数で週4コマ集中して学ぶ語学の授業。ベーシックは週2コマ。入学1学期目は指定される。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.27",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "言語コミュニケーション科目 履修の流れ",
+    "u": "https://language.sfc.keio.ac.jp/flow/"
+   }
+  ]
+ }
+]

@@ -1,0 +1,192 @@
+[
+ {
+  "term": "新入生お知らせシステム",
+  "alias": [
+   "新入生システム",
+   "fresh"
+  ],
+  "def": "入学前から入学直後の連絡を集めたWebサイト。慶應ID登録後に使え、クラスや学籍番号の発表もここで出る。",
+  "src": [
+   {
+    "l": "入学後の行事と諸手続について(SFC・2026年4月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/02cf31cba980e4b5f570a4777595502112d94efadf0a5c6d30eb410362b8b7d9"
+   }
+  ]
+ },
+ {
+  "term": "アクティベーション",
+  "alias": [
+   "慶應IDの登録",
+   "ID登録"
+  ],
+  "def": "慶應ID(keio.jp)を手に入れるための登録作業。入学前の決まった期間に、本人が行う。",
+  "src": [
+   {
+    "l": "keio.jpマニュアル(湘南藤沢KIC)",
+    "u": "https://www.sfc.itc.keio.ac.jp/ja/keiojp_manual.html"
+   }
+  ]
+ },
+ {
+  "term": "慶應メール",
+  "alias": [
+   "keio.jpメール",
+   "@keio.jp"
+  ],
+  "def": "慶應IDで使う大学のメール(Gmail)。大事な連絡が届くことがあるので、こまめに確認する。",
+  "src": [
+   {
+    "l": "慶應メール(湘南藤沢KIC)",
+    "u": "https://www.sfc.itc.keio.ac.jp/ja/keiojp_keiomail.html"
+   }
+  ]
+ },
+ {
+  "term": "SFC-CNSアカウント",
+  "alias": [
+   "CNSアカウント",
+   "CNS"
+  ],
+  "def": "SFCのキャンパスネットワークを使うためのID。入学前に、PCからオンラインで登録する。",
+  "src": [
+   {
+    "l": "SFC-CNSアカウントのオンライン登録のお願い(2026年9月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/f923c0639076d19d9f59cfb0422dce5d25a020cd68fb165e8ef3fadd1b42d65f"
+   }
+  ]
+ },
+ {
+  "term": "湘南藤沢情報センター",
+  "alias": [
+   "KIC",
+   "情報センター",
+   "湘南藤沢KIC"
+  ],
+  "def": "ネットワーク・PC・ソフトの窓口。メディアセンター1階のCNSサービス窓口で相談できる。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.12",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "通学証明書",
+  "alias": [
+   "通学定期の証明書"
+  ],
+  "def": "通学定期を買うための紙の証明書。証明書発行サービスで申請し、発行機かコンビニで印刷する。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.7",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "在籍確認シール",
+  "alias": [
+   "シール"
+  ],
+  "def": "学生証のカードの裏に貼るシール。カード・カードケースと合わせて3点で1セットになる。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.6",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "学生カード",
+  "alias": [],
+  "def": "住所・保証人・緊急連絡先などを書いて出す書類。病気やけがなどの緊急連絡に使われる。",
+  "src": [
+   {
+    "l": "入学後の行事と諸手続について(SFC・2026年4月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/02cf31cba980e4b5f570a4777595502112d94efadf0a5c6d30eb410362b8b7d9"
+   }
+  ]
+ },
+ {
+  "term": "クラス担任",
+  "alias": [
+   "担任"
+  ],
+  "def": "入学後の学習や生活の相談相手になる先生。2名が割り当てられ、オリエンテーションで顔合わせをする。",
+  "src": [
+   {
+    "l": "入学後の行事と諸手続について(SFC・2026年4月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/02cf31cba980e4b5f570a4777595502112d94efadf0a5c6d30eb410362b8b7d9"
+   }
+  ]
+ },
+ {
+  "term": "キックオフ・レクチャー",
+  "alias": [
+   "キックオフレクチャー"
+  ],
+  "def": "大学生活のはじめに、いろいろな分野の人を招いて行う講演。必ず参加するよう案内されている。",
+  "src": [
+   {
+    "l": "入学後の行事と諸手続について(SFC・2026年4月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/02cf31cba980e4b5f570a4777595502112d94efadf0a5c6d30eb410362b8b7d9"
+   }
+  ]
+ },
+ {
+  "term": "TOEFL-ITP",
+  "alias": [
+   "トーフル",
+   "英語のレベル分け"
+  ],
+  "def": "英語のレベル分けのために、入学時に必ず受ける試験。当日は、印刷した受験票を持っていく。",
+  "src": [
+   {
+    "l": "入学後の行事と諸手続について(SFC・2026年4月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/02cf31cba980e4b5f570a4777595502112d94efadf0a5c6d30eb410362b8b7d9"
+   }
+  ]
+ },
+ {
+  "term": "夜間残留",
+  "alias": [
+   "残留"
+  ],
+  "def": "23時〜翌朝8時にキャンパスに残ること。先生が許可した授業の活動で、事前申請した場合だけ認められる。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.8",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "カモる",
+  "alias": [
+   "カモり",
+   "鴨る"
+  ],
+  "def": "池のほとりの芝生で、昼ごはんや日なたぼっこをしてくつろぐこと。学生の間で使う言い方。",
+  "src": [
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   }
+  ]
+ },
+ {
+  "term": "保守管理室",
+  "alias": [],
+  "def": "アルファ館1階にある窓口。持ち主が分からない拾得物の保管や、貸しロッカー・周辺の駐車場の相談を受ける。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.7",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.10",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ }
+]

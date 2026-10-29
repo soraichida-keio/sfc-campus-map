@@ -1,0 +1,30 @@
+[
+ {
+  "id": "c-wifi-trouble",
+  "reason": "b-wifi-trouble と同じ質問"
+ },
+ {
+  "id": "b-satsuei",
+  "reason": "c-photo と同じ質問(施設側の記述の方が具体的)"
+ },
+ {
+  "id": "e-photo-rule",
+  "reason": "c-photo と同じ質問"
+ },
+ {
+  "id": "e-closure",
+  "reason": "b-jimushitsu-closed と同じ質問"
+ },
+ {
+  "id": "b-seiseki-hoshonin",
+  "reason": "a-guarantor と同じ質問"
+ },
+ {
+  "id": "b-kyuko",
+  "reason": "a-typhoon と同じ質問(a の方がオンライン授業にも触れている)"
+ },
+ {
+  "id": "d-perspective",
+  "reason": "a-perspective と同じ質問"
+ }
+]

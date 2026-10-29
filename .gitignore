@@ -1,0 +1,27 @@
+# 依存・生成物・ローカルの記録
+node_modules/
+.wrangler/
+.recall/
+.DS_Store
+# ビルドで毎回作られる(node tools/build.mjs)
+public/assets/
+public/sw.js
+public/faq-full.json
+public/index.html
+public/404.html
+public/map/
+public/route/
+public/rooms/
+public/guide/
+public/timetable/
+public/life/
+public/access/
+public/faq/
+public/about/
+# 第三者のスキル(各自 `npx skills add dickwu/apple-design-skill` で導入)
+.claude/skills/
+# 教室・建物の個別ページ・sitemap は tools/detail.mjs がビルドで作る
+public/room/
+public/building/
+public/sitemap.xml
+public/robots.txt

@@ -1,0 +1,212 @@
+[
+ {
+  "term": "公認学生団体",
+  "alias": [
+   "公認団体",
+   "公認サークル"
+  ],
+  "def": "大学の審査で公的に認められた学生団体。施設・備品の貸出、部室、保険などの便宜がある。",
+  "src": [
+   {
+    "l": "塾生サイト 学生団体",
+    "u": "https://www.students.keio.ac.jp/com/life/extracurricular/club.html"
+   }
+  ]
+ },
+ {
+  "term": "登録学生団体(未公認)",
+  "alias": [
+   "未公認団体",
+   "登録団体"
+  ],
+  "def": "将来の公認を目指し、毎年届け出る学生団体。施設の貸出や保険などの便宜は受けられない。",
+  "src": [
+   {
+    "l": "塾生サイト 学生団体",
+    "u": "https://www.students.keio.ac.jp/com/life/extracurricular/club.html"
+   }
+  ]
+ },
+ {
+  "term": "学外行事届",
+  "alias": [
+   "海外活動申請書"
+  ],
+  "def": "団体や研究会が学外で合宿・試合などをする前に出す届け。出さないと保険の対象外になることがある。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.7",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "CDPオフィス",
+  "alias": [
+   "就職・進路支援担当",
+   "シーディーピー"
+  ],
+  "def": "Α館1階にある就職・進路の窓口。個別相談、セミナー、求人やインターン情報の提供を行う。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.10",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "フィールド研究",
+  "alias": [
+   "フィールド研究1",
+   "フィールド研究2"
+  ],
+  "def": "休校期間の現地調査や就業体験を、事前の許可を得て単位にする科目。取消はできない。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.20",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "海外研修(外国語)",
+  "alias": [
+   "外国語海外研修",
+   "海外研修A"
+  ],
+  "def": "夏・春の休校期間に海外で学ぶ言語科目。参加直後の学期に履修申告をし、取消はできない。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.18",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "派遣交換留学",
+  "alias": [
+   "交換留学"
+  ],
+  "def": "大学の協定校へ約1学年間(約10か月)行く留学。留学先の学費は免除され、慶應の学費を納める。",
+  "src": [
+   {
+    "l": "国際センター 派遣交換留学概要",
+    "u": "https://www.ic.keio.ac.jp/keio_student/exchange/ex_ex.html"
+   }
+  ]
+ },
+ {
+  "term": "単位認定・在学期間算入",
+  "alias": [
+   "単位認定",
+   "在学期間算入"
+  ],
+  "def": "留学先の単位を慶應の単位にする申請と、留学期間を最長1年まで在学期間に入れる申請。",
+  "src": [
+   {
+    "l": "塾生サイト 休学・留学・退学(SFC総環)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/procedure/status/apply.html"
+   }
+  ]
+ },
+ {
+  "term": "GIGAプログラム",
+  "alias": [
+   "ギガ",
+   "GIGA"
+  ],
+  "def": "慶應の学部で初めての英語によるプログラム。要件を満たして申請すると修了証が出る。",
+  "src": [
+   {
+    "l": "塾生サイト GIGAプログラム",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/giga-certificate.html"
+   }
+  ]
+ },
+ {
+  "term": "サティフィケート",
+  "alias": [
+   "修了証"
+  ],
+  "def": "所定の科目や要件を満たしたときに出る修了証。GIGAやパースペクティブなどにある。",
+  "src": [
+   {
+    "l": "塾生サイト GIGAプログラム",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/giga-certificate.html"
+   },
+   {
+    "l": "塾生サイト パースペクティブ",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/perspective.html"
+   }
+  ]
+ },
+ {
+  "term": "パースペクティブ",
+  "alias": [
+   "HS",
+   "EBA",
+   "SBC"
+  ],
+  "def": "分野横断の学びを案内する仕組み。ヘルスサイエンス、エビデンスベースド、学生が作るキャンパスの3種類。",
+  "src": [
+   {
+    "l": "塾生サイト パースペクティブ",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/perspective.html"
+   }
+  ]
+ },
+ {
+  "term": "ORF(Open Research Forum)",
+  "alias": [
+   "ORF",
+   "万学博覧会"
+  ],
+  "def": "SFC研究所が毎年秋に開く、SFCの研究成果を社会に公開するイベント。1996年に始まった。",
+  "src": [
+   {
+    "l": "SFC キャンパスカレンダー",
+    "u": "https://www.keio.ac.jp/ja/sfc-pem/campus-life/calendar/"
+   }
+  ]
+ },
+ {
+  "term": "オフィスアワー",
+  "alias": [],
+  "def": "教員が週に1回設ける、学生の指導や相談に応じる時間。担当以外の先生にも、個人研究室で相談できる。",
+  "src": [
+   {
+    "l": "SFC 学習・研究を支援するサービス",
+    "u": "https://www.keio.ac.jp/ja/sfc-pem/campus-life/service/"
+   }
+  ]
+ },
+ {
+  "term": "七夕祭",
+  "alias": [],
+  "def": "SFCの学園祭。SFC開設当初から続く、学生が企画・運営する夏祭りで、毎年夏に開かれる。",
+  "src": [
+   {
+    "l": "慶應義塾 学園祭一覧",
+    "u": "https://www.keio.ac.jp/ja/student-life/festival/"
+   },
+   {
+    "l": "SFC キャンパスカレンダー",
+    "u": "https://www.keio.ac.jp/ja/sfc-pem/campus-life/calendar/"
+   }
+  ]
+ },
+ {
+  "term": "4年一貫教育プログラム",
+  "alias": [
+   "学部大学院4年一貫",
+   "4年一貫"
+  ],
+  "def": "学部3年と修士1年の計4年で、学士と修士の2つの学位を取れる道を開く制度。第1学年の2学期目に申請する。",
+  "src": [
+   {
+    "l": "塾生サイト 学部・大学院修士4年一貫教育プログラム",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/procedure/4yr-integrate-pgm/index.html"
+   }
+  ]
+ }
+]

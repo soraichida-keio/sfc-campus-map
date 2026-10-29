@@ -1,0 +1,79 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><title>SFC キャンパスマップ サイト概要</title>
+<style>
+@page { size: A4; margin: 0 }
+* { box-sizing: border-box; }
+body { margin: 0; font: 400 10.6pt/1.65 -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif; color: #1d1d1f; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { width: 210mm; height: 297mm; padding: 13mm 15mm 18mm; page-break-after: always; position: relative; overflow: hidden; }
+.page:last-child { page-break-after: auto; }
+.top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12mm; }
+.eyebrow { color: #2646c9; font-weight: 800; font-size: 10pt; letter-spacing: .04em; }
+h1 { margin: 2mm 0 2.5mm; font-size: 22pt; line-height: 1.2; font-weight: 800; letter-spacing: -0.02em; }
+.lead { font-size: 11pt; color: #3b3b40; max-width: 118mm; }
+.qr { text-align: center; flex: none; }
+.qr svg { width: 27mm; height: 27mm; display: block; margin: 0 auto 1.5mm; }
+.qr small { font-size: 7.5pt; color: #6e6e73; display: block; word-break: break-all; max-width: 40mm; }
+.stats { display: flex; gap: 3mm; margin: 5mm 0 3mm; }
+.stat { flex: 1; background: #f5f5f7; border-radius: 3.5mm; padding: 2.8mm 4mm; }
+.stat b { display: block; font-size: 18pt; line-height: 1.1; font-weight: 800; color: #2646c9; }
+.stat span { font-size: 9pt; color: #515154; font-weight: 600; }
+h2 { font-size: 13pt; margin: 4mm 0 2.2mm; font-weight: 800; }
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 2.4mm; }
+.card { background: #fff; border: .3mm solid #dcdce0; border-radius: 3.5mm; padding: 2.4mm 3.4mm; break-inside: avoid; }
+.card h3 { margin: 0 0 .6mm; font-size: 10.2pt; font-weight: 800; }
+.card p { margin: 0; font-size: 8.7pt; color: #515154; line-height: 1.5; }
+.nel { display: grid; grid-template-columns: 1fr; gap: 2mm; background: #eef2ff; border-radius: 4mm; padding: 3.2mm 4.2mm; margin-top: 3.5mm; }
+.nel ol { margin: 0; padding-left: 5mm; font-size: 9pt; }
+.nel li { margin: .6mm 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 2mm; margin-top: 1mm; }
+.chip { background: #fff; border: .3mm solid #c9d3f5; border-radius: 99px; padding: .6mm 3mm; font-size: 9pt; font-weight: 600; }
+table { width: 100%; border-collapse: collapse; font-size: 8.8pt; }
+th { text-align: left; font-size: 8.4pt; color: #6e6e73; padding: 1.4mm 2mm; border-bottom: .4mm solid #dcdce0; }
+td { padding: 1.1mm 2mm; border-bottom: .2mm solid #ececf0; vertical-align: top; }
+.mono { font-family: ui-monospace, Menlo, monospace; font-size: 8.4pt; color: #2646c9; white-space: nowrap; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+ul { margin: 0; padding-left: 4.5mm; font-size: 8.9pt; }
+li { margin: .5mm 0; }
+.note { background: #fff6e5; border-radius: 3.5mm; padding: 3mm 4mm; font-size: 8.8pt; margin-top: 3mm; }
+.foot { position: absolute; left: 15mm; right: 15mm; bottom: 8mm; font-size: 7.8pt; color: #86868b; display: flex; justify-content: space-between; }
+</style></head><body>
+<section class="page">
+  <div class="top">
+    <div>
+      <div class="eyebrow">SFC キャンパスマップ(非公式)</div>
+      <h1>建物も教室も、<br>3D で見つかる。</h1>
+      <p class="lead">SFC の建物と教室を 3D で見て探せる、新入生のための非公式キャンパスガイド。教室から教室まで歩いて何分かも分かり、案内キャラ「ねる」が声で答えます。</p>
+    </div>
+    <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h33v33H0z"/><path stroke="#1d1d1f" d="M0 0.5h7m1 0h2m1 0h2m1 0h1m6 0h2m3 0h7M0 1.5h1m5 0h1m1 0h5m3 0h2m1 0h1m2 0h1m3 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m6 0h5m1 0h1m1 0h2m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m3 0h3m2 0h1m4 0h2m2 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h2m2 0h1m1 0h2m1 0h2m1 0h3m3 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m2 0h1m2 0h1m4 0h2m1 0h1m1 0h2m2 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M10 7.5h1m1 0h2m4 0h1m3 0h3M0 8.5h1m2 0h6m1 0h3m1 0h5m4 0h3m2 0h1m1 0h3M0 9.5h4m1 0h1m1 0h1m2 0h2m3 0h1m2 0h2m2 0h2m4 0h4M0 10.5h2m2 0h1m1 0h1m3 0h1m3 0h2m1 0h2m4 0h1m1 0h2m1 0h5M1 11.5h2m2 0h1m3 0h3m2 0h1m2 0h1m2 0h1m1 0h2m2 0h2m2 0h2M2 12.5h1m1 0h3m2 0h3m1 0h2m1 0h3m1 0h1m3 0h4M0 13.5h1m4 0h1m1 0h3m3 0h1m2 0h2m2 0h4m1 0h1m1 0h1m1 0h2M2 14.5h2m1 0h2m1 0h4m1 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h1m2 0h1M1 15.5h1m2 0h1m4 0h1m1 0h1m1 0h1m1 0h1m2 0h2m3 0h3m2 0h3m1 0h1M0 16.5h1m1 0h1m1 0h1m1 0h1m3 0h1m2 0h1m6 0h1m1 0h8M1 17.5h1m1 0h1m1 0h1m1 0h1m2 0h1m2 0h1m1 0h1m2 0h3m3 0h3m1 0h1m1 0h1m1 0h1M0 18.5h4m1 0h4m2 0h5m3 0h1m2 0h2m3 0h1m1 0h4M5 19.5h1m2 0h1m2 0h4m2 0h3m2 0h4m2 0h3m1 0h1M2 20.5h2m2 0h1m1 0h1m1 0h5m5 0h1m1 0h1m4 0h1m1 0h1M0 21.5h3m1 0h1m3 0h3m1 0h3m1 0h1m1 0h2m2 0h2m1 0h1m1 0h4M0 22.5h1m1 0h2m1 0h3m2 0h1m1 0h7m2 0h1m1 0h1m2 0h1m3 0h3M0 23.5h1m1 0h3m2 0h6m3 0h2m2 0h1m1 0h1m2 0h3m2 0h1M0 24.5h2m1 0h1m2 0h3m1 0h1m3 0h3m2 0h2m3 0h6m2 0h1M8 25.5h2m2 0h5m1 0h1m1 0h3m1 0h1m3 0h1m1 0h2M0 26.5h7m1 0h3m1 0h2m1 0h2m1 0h3m2 0h2m1 0h1m1 0h1m1 0h1M0 27.5h1m5 0h1m1 0h1m1 0h4m1 0h1m3 0h2m1 0h3m3 0h3m1 0h1M0 28.5h1m1 0h3m1 0h1m1 0h1m5 0h2m1 0h2m1 0h1m1 0h7m2 0h2M0 29.5h1m1 0h3m1 0h1m1 0h4m2 0h1m2 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h4M0 30.5h1m1 0h3m1 0h1m3 0h1m1 0h1m1 0h1m1 0h1m2 0h3m2 0h2m1 0h3m1 0h2M0 31.5h1m5 0h1m2 0h2m1 0h2m1 0h2m1 0h2m2 0h1m3 0h3m1 0h3M0 32.5h7m1 0h5m3 0h2m1 0h2m2 0h2m1 0h3"/></svg>
+<small>https://sfc-campus-map.affiliate-web-cf.workers.dev</small></div>
+  </div>
+  <div class="stats"><div class="stat"><b>66</b><span>教室のデータ</span></div><div class="stat"><b>42</b><span>建物・施設</span></div><div class="stat"><b>10</b><span>ページ</span></div><div class="stat"><b>0円</b><span>無料・登録不要</span></div></div>
+  <h2>主な機能</h2>
+  <div class="cards"><div class="card"><h3>3D マップ</h3><p>建物をクリックすると、階ごとに分解して教室を表示。真上からの表示にも切り替えられます。</p></div><div class="card"><h3>教室を探す</h3><p>66教室の定員・大きさ・机・4K・アクティブラーニングで絞り込み。教室番号(κ21 など)から場所が分かります。</p></div><div class="card"><h3>経路・徒歩時間</h3><p>バス停・門・建物・教室から、歩く道を3Dの地図に線で表示。「ふつう」と「急ぎ足」の目安時間つき。</p></div><div class="card"><h3>時間割プランナー</h3><p>授業と教室を入れると、休み時間に間に合うかを判定。2D の地図に動線も描きます。データは端末の中だけ。</p></div><div class="card"><h3>新入生ガイド</h3><p>最初にやること、チェックリスト、授業の時間、SFC のことば。公式資料にもとづき出典つき。</p></div><div class="card"><h3>施設・アクセス・FAQ</h3><p>学食や窓口の場所、湘南台・辻堂からのバス、よくある質問24問。</p></div><div class="card"><h3>案内キャラ「ねる」</h3><p>右下のねるに質問すると、声と吹き出しで答え、地図も動かします。口パクつき。</p></div><div class="card"><h3>スマホ対応</h3><p>スマホでは下のタブで操作でき、マップとねるが前面に出ます。ホーム画面に追加もできます。</p></div></div>
+  <div class="nel"><b>ねるの使い方(右下の「何でも聞いてね！」をタップ)</b>
+    <ol><li>右下のねるをタップすると、質問の画面が開きます(声が出ます。音量とマナーモードを確認)。</li><li>下の入力欄か、例のボタンで質問します。</li><li>声と吹き出しで答え、マップ画面では地図が動き、ほかのページでは小さな地図で場所を見せます。</li></ol>
+    <div class="chips"><span class="chip">κ21はどこ？</span><span class="chip">バス停からλ11まで何分？</span><span class="chip">食堂はどこ？</span><span class="chip">1限は何時から？</span><span class="chip">履修登録はいつ？</span><span class="chip">大きい教室は？</span></div></div>
+  <div class="foot"><span>SFC キャンパスマップ(非公式) サイト概要 · 2026年10月22日</span><span>1 / 2</span></div>
+</section>
+<section class="page">
+  <h2 style="margin-top:0">ページ一覧</h2>
+  <table><thead><tr><th>ページ</th><th>アドレス</th><th>できること</th></tr></thead><tbody><tr><td><b>ホーム</b></td><td class="mono">/</td><td>3D のヒーロー、できること、教室番号の読み方、最初にやること</td></tr><tr><td><b>マップ</b></td><td class="mono">/map/</td><td>3D マップ。検索、棟・施設、教室、経路</td></tr><tr><td><b>経路・徒歩時間</b></td><td class="mono">/route/</td><td>出発と到着を選ぶと、歩く道と時間を表示</td></tr><tr><td><b>教室を探す</b></td><td class="mono">/rooms/</td><td>66教室の一覧と絞り込み・並べ替え</td></tr><tr><td><b>新入生ガイド</b></td><td class="mono">/guide/</td><td>最初にやること、チェックリスト、授業の時間、用語集</td></tr><tr><td><b>時間割プランナー</b></td><td class="mono">/timetable/</td><td>授業×教室を入れて、移動が間に合うか確認</td></tr><tr><td><b>施設ガイド</b></td><td class="mono">/life/</td><td>学食・図書館・窓口・保健など15施設</td></tr><tr><td><b>アクセス</b></td><td class="mono">/access/</td><td>駅からのバス、構内のバス停</td></tr><tr><td><b>よくある質問</b></td><td class="mono">/faq/</td><td>24問(検索つき)</td></tr><tr><td><b>このサイトについて</b></td><td class="mono">/about/</td><td>出典、正確さの注意、クレジット、プライバシー</td></tr></tbody></table>
+  <div class="two" style="margin-top:4mm">
+    <div><h2 style="margin-top:0">使っているデータ</h2><ul>
+      <li>建物の形・配置: 慶應義塾の公式キャンパスマップ(バリアフリーマップ)をもとに作図</li>
+      <li>教室の定員・設備: SFC Classroom(公式)の66教室</li>
+      <li>授業の時間・窓口・手続き: SFC GUIDE 2026 などの公式資料(出典つき)</li>
+      <li>歩く距離: OpenStreetMap の建物と突き合わせて縮尺を確認(平均誤差 2.5m)</li></ul></div>
+    <div><h2 style="margin-top:0">プライバシーと費用</h2><ul>
+      <li>アカウント登録・アクセス解析・広告はなし</li>
+      <li>時間割やチェックリストは、端末のブラウザの中にだけ保存</li>
+      <li>ねるへの質問は外部に送らない(AI ではなく、サイト内のデータから答える仕組み)</li>
+      <li>声は、事前に録音した合成音声(AivisSpeech「まお」)を配信</li>
+      <li>Cloudflare の無料枠で運用。サーバーの費用はかかりません</li></ul></div>
+  </div>
+  <div class="note"><b>正確さについて(必ずお読みください)</b><br>このサイトは学生による非公式のサイトで、慶應義塾とは関係がありません。教室の「階」は教室番号の十の位からの推定、建物の高さは目安、歩く時間は階段・坂・混雑を含まない目安です。時限・窓口・推奨スペックは2026年度の資料時点なので、最新情報は必ず公式サイトで確認してください。</div>
+  <h2>今後の予定(候補)</h2>
+  <ul><li>GPS の現在地を地図に表示し、現在地から教室まで案内(曲がる指示・ルート外れの再計算)</li><li>階段を避けるバリアフリー経路</li><li>シラバスの教室を貼り付けて時間割に取り込む</li><li>英語版・やさしい日本語版、答えの誤りの報告ボタン</li></ul>
+  <h2>しくみ(要点)</h2>
+  <ul><li>Cloudflare Workers の静的サイト。3D は Three.js、経路は地図画像から作った格子で最短経路を計算</li><li>PWA 対応(ホーム画面に追加できます)</li><li>ソースコードは非公開の GitHub リポジトリで管理</li></ul>
+  <div class="foot"><span>https://sfc-campus-map.affiliate-web-cf.workers.dev</span><span>2 / 2</span></div>
+</section></body></html>

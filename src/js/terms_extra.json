@@ -1,0 +1,1022 @@
+[
+ {
+  "term": "履修上限",
+  "alias": [
+   "履修上限単位",
+   "上限単位",
+   "キャップ"
+  ],
+  "def": "1学期に履修できる単位の上限。進級・卒業の単位で20単位、自由科目を含めて30単位(2026年度)。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.15",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "分野",
+  "alias": [
+   "A欄申告",
+   "科目分野"
+  ],
+  "def": "学則に基づいて科目を種類ごとに分けたもの。総環設置科目は、科目を登録すると自動で割り振られる。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.15",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "登録済科目",
+  "alias": [
+   "登録済み科目",
+   "履修確認画面"
+  ],
+  "def": "K-Support の上部にある画面。申告した科目が正しく登録されたかを確認する。反映は翌日。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.13",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.14",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "履修取消",
+  "alias": [
+   "取消申告",
+   "履修登録取消"
+  ],
+  "def": "登録した科目をやめる手続き。取消期間にだけでき、成績はつかず、体育2・3など取消できない科目もある。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.14",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "追加許可",
+  "alias": [
+   "追加抽選",
+   "履修制限あり(追加許可あり)"
+  ],
+  "def": "履修不許可だった科目に、二次期間中に授業担当者の判断で出る許可。必ず出るとは限らない。",
+  "src": [
+   {
+    "l": "総環設置科目の履修者選抜(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/restriction.html"
+   }
+  ]
+ },
+ {
+  "term": "クラス指定科目",
+  "alias": [
+   "指定クラス"
+  ],
+  "def": "履修する曜日・時限がクラスで決まっている科目。入学1学期目は指定クラスで自動登録される。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.16",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "基盤科目",
+  "alias": [
+   "基盤"
+  ],
+  "def": "学部を問わず全員の土台になる科目群。言語、データサイエンス、情報技術基礎、ウェルネスの4つ。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.27",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "先端科目",
+  "alias": [
+   "先端"
+  ],
+  "def": "研究会や卒業プロジェクトへ導く専門的な科目群。卒業には先端科目30単位以上が必要。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.27",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.32",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "特設科目",
+  "alias": [
+   "特設"
+  ],
+  "def": "企業や社会との連携などで開かれる科目の区分。卒業の124単位に含められるのは20単位まで。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.30",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.32",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "他学部等設置科目",
+  "alias": [
+   "他学部科目",
+   "他学部"
+  ],
+  "def": "総合政策・環境情報学部以外の学部などが開く科目。卒業単位に含められるのは60単位まで。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.22",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.32",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "大学院先取り科目",
+  "alias": [
+   "先取り科目",
+   "先取り履修"
+  ],
+  "def": "学部在学中に取れる大学院の科目。自由科目としてのみ履修でき、学部の卒業単位にはならない。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.21",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "卒プロメンター",
+  "alias": [
+   "メンター"
+  ],
+  "def": "卒業プロジェクトの担当教員。総環の専任教員に限られ、所定の期間に申請して承認を受ける。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.19",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "履修上の注意(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/"
+   }
+  ]
+ },
+ {
+  "term": "補講日",
+  "alias": [
+   "補講",
+   "補講・試験日"
+  ],
+  "def": "休講になった授業の補いを行う日。原則として土曜日や、学事日程で指定された日に実施される。",
+  "src": [
+   {
+    "l": "休講・補講・任意設定講義(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/canceled.html"
+   }
+  ]
+ },
+ {
+  "term": "追加試験(追試)",
+  "alias": [
+   "追試",
+   "追加試験"
+  ],
+  "def": "病気などで定期試験を受けられなかった人が、申請して許可されたときに受ける試験。理由ごとに書類が必要。",
+  "src": [
+   {
+    "l": "試験・レポート(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/exam/index.html"
+   }
+  ]
+ },
+ {
+  "term": "評語(S・A・B・C・D)",
+  "alias": [
+   "評語",
+   "成績評語",
+   "エス"
+  ],
+  "def": "成績の5段階。S〜Cが合格で、Dが不合格(2017年度以降)。科目によってはP・Fの2種もある。",
+  "src": [
+   {
+    "l": "成績評語について(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/com/class/grade/guideline.html"
+   }
+  ]
+ },
+ {
+  "term": "GPA",
+  "alias": [
+   "ジーピーエー",
+   "学期GPA",
+   "累積GPA"
+  ],
+  "def": "評語を4.0〜0.0の点数にして単位数で平均した値。学期GPAと累積GPAがあり、自由科目は含まない。",
+  "src": [
+   {
+    "l": "成績発表(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/com/class/grade/index.html"
+   }
+  ]
+ },
+ {
+  "term": "GIGAプログラム",
+  "alias": [
+   "ギガ",
+   "GIGA"
+  ],
+  "def": "英語で学ぶプログラム。学部・学年を問わず科目を履修でき、要件を満たすとサティフィケートが出る。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.28",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "GIGAプログラム(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/giga-certificate.html"
+   }
+  ]
+ },
+ {
+  "term": "パースペクティブ",
+  "alias": [
+   "EBA",
+   "HS",
+   "SBC"
+  ],
+  "def": "分野をまたいだ学びをガイドする仕組み。EBA・HS・SBCの3つがあり、修了すると修了証が出る。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.28",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "パースペクティブ(塾生サイト)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/perspective.html"
+   }
+  ]
+ },
+ {
+  "term": "資格認定試験",
+  "alias": [
+   "認定試験",
+   "言語認定試験"
+  ],
+  "def": "すでに学んだ言語の力を認める試験。合格すると上のレベルの語学科目を履修できる(英語などを除く)。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.18",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "言語コミュニケーション科目 資格認定試験・TOEFL-ITP",
+    "u": "https://language.sfc.keio.ac.jp/guidance/"
+   }
+  ]
+ },
+ {
+  "term": "インテンシブ",
+  "alias": [
+   "語学インテンシブ",
+   "英語インテンシブ"
+  ],
+  "def": "少人数で週4コマ集中して学ぶ語学の授業。ベーシックは週2コマ。入学1学期目は指定される。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.27",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "言語コミュニケーション科目 履修の流れ",
+    "u": "https://language.sfc.keio.ac.jp/flow/"
+   }
+  ]
+ },
+ {
+  "term": "学費Navi",
+  "alias": [
+   "学費ナビ"
+  ],
+  "def": "学費の金額・期限を確認して納め、延納や返金の手続きもする専用Webサイト。K-Supportの「Apps」から入る。",
+  "src": [
+   {
+    "l": "慶應義塾 【学部】学費",
+    "u": "https://www.keio.ac.jp/ja/admissions/fees/"
+   }
+  ]
+ },
+ {
+  "term": "学研災",
+  "alias": [
+   "学生教育研究災害傷害保険",
+   "学研賠"
+  ],
+  "def": "授業・行事・課外活動中や通学中の不慮の事故によるケガに備える保険。保険料は大学が負担している。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.8",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "塾生サイト 保険",
+    "u": "https://www.students.keio.ac.jp/com/life/health/insurance.html"
+   }
+  ]
+ },
+ {
+  "term": "学外行事届",
+  "alias": [
+   "海外活動申請書"
+  ],
+  "def": "学外の合宿・対外試合・催物などの前に出す届。出さないと学研災の対象外になることがある。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.7",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "在籍確認シール",
+  "alias": [
+   "シール"
+  ],
+  "def": "学生証カードの裏に貼るシール。年度ごとの更新はなく、期限が切れる人にだけ新しいものが配られる。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.6",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "保証人",
+  "alias": [
+   "保証人ID"
+  ],
+  "def": "本人の学費と身上の責任を負う人。原則は父か母。学費Naviなどには保証人IDでログインする。",
+  "src": [
+   {
+    "l": "塾生サイト 氏名・住所・保証人変更",
+    "u": "https://www.students.keio.ac.jp/com/procedure/register/apply.html"
+   }
+  ]
+ },
+ {
+  "term": "延納",
+  "alias": [
+   "授業料延納",
+   "延納申請"
+  ],
+  "def": "やむを得ない事情で学費を期日に払えないとき、納入を延ばしてもらう申請。2026年度は学費Naviで出す。",
+  "src": [
+   {
+    "l": "塾生サイト 授業料等延納申請",
+    "u": "https://www.students.keio.ac.jp/com/scholarships/tuition/extension.html"
+   }
+  ]
+ },
+ {
+  "term": "慶應ID(keio.jp)",
+  "alias": [
+   "keio.jp",
+   "慶應ID",
+   "アクティベーション"
+  ],
+  "def": "慶應のほぼ全サービスに入る共通のID。最初に16桁のキーで登録する作業をアクティベーションと呼ぶ。",
+  "src": [
+   {
+    "l": "湘南藤沢情報センター FAQ",
+    "u": "https://www.sfc.itc.keio.ac.jp/ja/keiojp_manual_faq2.html"
+   }
+  ]
+ },
+ {
+  "term": "多要素認証(MFA)",
+  "alias": [
+   "MFA",
+   "パスキー",
+   "二段階認証"
+  ],
+  "def": "パスワードに加え、スマホなどでもう一度本人確認をする仕組み。通学課程の学生は2026年2月9日から必須。",
+  "src": [
+   {
+    "l": "慶應義塾 ITC お知らせ",
+    "u": "https://www.itc.keio.ac.jp/ja/news_20260116_keiojp_okta.html"
+   }
+  ]
+ },
+ {
+  "term": "慶應メール",
+  "alias": [
+   "@keio.jp",
+   "学生メール"
+  ],
+  "def": "keio.jpの学生用メール(@keio.jp)。大学からの連絡を受け、教員や事務室へ連絡するときにも使う。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.12",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "CNS",
+  "alias": [
+   "シーエヌエス",
+   "キャンパスネットワーク"
+  ],
+  "def": "SFCのキャンパスネットワークシステム。学内Wi-Fiなどの土台で、窓口は湘南藤沢情報センター(ミュー館1階)。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.12",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "心身ウェルネスセンター",
+  "alias": [
+   "保健管理センター",
+   "学生相談",
+   "診療所"
+  ],
+  "def": "アルファ館2階。保健管理センター・湘南藤沢診療所・学生相談(カウンセリング)が入っている。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.11",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "保健管理センター 湘南藤沢分室",
+    "u": "https://www.hcc.keio.ac.jp/ja/admissions/sfc.html"
+   }
+  ]
+ },
+ {
+  "term": "学生健保",
+  "alias": [
+   "学生健康保険互助組合",
+   "医療給付"
+  ],
+  "def": "正規生が入学と同時に入る互助組織。保険診療の自己負担の一部を「医療給付」として給付する。",
+  "src": [
+   {
+    "l": "塾生サイト 学生健保",
+    "u": "https://www.students.keio.ac.jp/com/life/health/"
+   }
+  ]
+ },
+ {
+  "term": "協生環境推進室",
+  "alias": [
+   "協生環境"
+  ],
+  "def": "多様性を認め合う環境づくりを進める全学の組織。障害のある学生の支援では後方支援を担う。",
+  "src": [
+   {
+    "l": "慶應義塾 障害のある学生を支援するためのガイドライン",
+    "u": "https://www.diversity.keio.ac.jp/ease/guideline.html"
+   }
+  ]
+ },
+ {
+  "term": "保守管理室",
+  "alias": [
+   "湘南コミュニティー"
+  ],
+  "def": "アルファ館1階にある。持ち主不明の拾得物の保管のほか、貸しロッカーや周辺駐車場の相談を受ける。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.7",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.10",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "学割証",
+  "alias": [
+   "JR学割"
+  ],
+  "def": "JR各社共通の学生割引の証明書。コンビニでは出せず、学内の証明書発行機でだけ発行できる。",
+  "src": [
+   {
+    "l": "塾生サイト 証明書の発行",
+    "u": "https://www.students.keio.ac.jp/com/procedure/certificate/issue.html"
+   }
+  ]
+ },
+ {
+  "term": "カモる",
+  "alias": [
+   "カモり",
+   "カモる"
+  ],
+  "def": "池のほとりの芝生で昼食をとったり日なたぼっこをしたりして、のんびりすること。鴨池にちなむ学生の言い方。",
+  "src": [
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   }
+  ]
+ },
+ {
+  "term": "タブリエ",
+  "alias": [
+   "ファカルティクラブ",
+   "教職員食堂"
+  ],
+  "def": "シグマ館1階にあるイタリアンの教職員食堂。教職員と一緒に行けば、塾生も利用できる。",
+  "src": [
+   {
+    "l": "食堂・ラウンジ・生協(慶應義塾)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/cafe-coop/"
+   }
+  ]
+ },
+ {
+  "term": "レディバード",
+  "alias": [
+   "レディーバード"
+  ],
+  "def": "シグマ館1階、タブリエの隣のカフェ。ピザやパスタが食べられる。平日の昼から夕方まで営業。",
+  "src": [
+   {
+    "l": "食堂・ラウンジ・生協(慶應義塾)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/cafe-coop/"
+   }
+  ]
+ },
+ {
+  "term": "ソルトダイニング",
+  "alias": [
+   "ソルトハウス食堂",
+   "ソルト・ハウス"
+  ],
+  "def": "イータヴィレッジの共用棟にある学生食堂。お昼のランチだけ営業していて、寮生以外も使える。",
+  "src": [
+   {
+    "l": "食堂・ラウンジ・生協(慶應義塾)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/cafe-coop/"
+   }
+  ]
+ },
+ {
+  "term": "学生ラウンジ(鴨池テラス)",
+  "alias": [
+   "サブウェイ",
+   "鴨池テラス",
+   "学生ラウンジ"
+  ],
+  "def": "オメガ館の横にある学生ラウンジ。サブウェイが入っていて、屋上は池を見渡せる鴨池テラスになっている。",
+  "src": [
+   {
+    "l": "食堂・ラウンジ・生協(慶應義塾)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/cafe-coop/"
+   },
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   }
+  ]
+ },
+ {
+  "term": "鴨池ラウンジ",
+  "alias": [
+   "かもいけラウンジ"
+  ],
+  "def": "シグマ館地下1階のラウンジ。個人席39席とグループ席55席などがあり、約100人が使える。",
+  "src": [
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   }
+  ]
+ },
+ {
+  "term": "ファブスペース",
+  "alias": [
+   "ファブ",
+   "ファブキャンパス"
+  ],
+  "def": "メディアセンター1階の工作スペース。3Dプリンタ・レーザーカッター・ミシンなどが使える。",
+  "src": [
+   {
+    "l": "図書館 ファブスペース",
+    "u": "https://www.lib.keio.ac.jp/sfc/facilities/fabspace.html"
+   }
+  ]
+ },
+ {
+  "term": "AVカウンター",
+  "alias": [
+   "エーブイカウンター",
+   "AV機材"
+  ],
+  "def": "メディアセンター1階の窓口。カメラなどの撮影機材の貸出と、ファブスペースの受付をする。",
+  "src": [
+   {
+    "l": "図書館 AV機材の貸出・返却",
+    "u": "https://www.lib.keio.ac.jp/sfc/service/avcir.html"
+   }
+  ]
+ },
+ {
+  "term": "レファレンスデスク",
+  "alias": [
+   "レファレンス",
+   "レファ"
+  ],
+  "def": "メディアセンター1階の相談窓口。本や論文の探し方、図書館の使い方を教えてくれる。",
+  "src": [
+   {
+    "l": "図書館 レファレンスサービス",
+    "u": "https://www.lib.keio.ac.jp/sfc/service/ref.html"
+   }
+  ]
+ },
+ {
+  "term": "湘南藤沢情報センター",
+  "alias": [
+   "KIC",
+   "ITC",
+   "情報センター",
+   "CNSサービス窓口"
+  ],
+  "def": "ミュー館1階北側にある窓口。学内ネットワークやアカウント、貸出PCなどの相談を受けつけている。",
+  "src": [
+   {
+    "l": "湘南藤沢情報センター",
+    "u": "https://www.sfc.itc.keio.ac.jp/"
+   },
+   {
+    "l": "情報センター PC貸出",
+    "u": "https://www.sfc.itc.keio.ac.jp/en/computer_rentalpc_sfc.html"
+   }
+  ]
+ },
+ {
+  "term": "βヴィレッジ",
+  "alias": [
+   "ベータヴィレッジ",
+   "DFF-W"
+  ],
+  "def": "寝食をともにして研究する滞在型の施設。滞在棟・ドーム・工房などがあり、最大120人が収容できる。",
+  "src": [
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   },
+   {
+    "l": "βヴィレッジ(公式サイト)",
+    "u": "https://b-village.sfc.keio.ac.jp/"
+   }
+  ]
+ },
+ {
+  "term": "Ηヴィレッジ(国際学生寮)",
+  "alias": [
+   "イータヴィレッジ",
+   "国際学生寮",
+   "イータ"
+  ],
+  "def": "キャンパス内の国際学生寮。4つの居住棟と、食堂のある共用棟ソルトハウスでできている。",
+  "src": [
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   }
+  ]
+ },
+ {
+  "term": "夜間残留",
+  "alias": [
+   "残留"
+  ],
+  "def": "夜も学内に残って活動すること。いまは科目担当の許可を得た正課の活動だけが、事前申請で認められる。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.8",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   }
+  ]
+ },
+ {
+  "term": "指定資料(リザーブ)",
+  "alias": [
+   "リザーブ",
+   "指定図書"
+  ],
+  "def": "教員の希望で授業用に取り置かれる資料。館外へは貸し出さず、2階の専用の書架で読む。",
+  "src": [
+   {
+    "l": "図書館 指定資料・教材印刷",
+    "u": "https://www.lib.keio.ac.jp/sfc/service/reserve.html"
+   }
+  ]
+ },
+ {
+  "term": "公認学生団体",
+  "alias": [
+   "公認団体",
+   "公認サークル"
+  ],
+  "def": "大学の審査で公的に認められた学生団体。施設・備品の貸出、部室、保険などの便宜がある。",
+  "src": [
+   {
+    "l": "塾生サイト 学生団体",
+    "u": "https://www.students.keio.ac.jp/com/life/extracurricular/club.html"
+   }
+  ]
+ },
+ {
+  "term": "登録学生団体(未公認)",
+  "alias": [
+   "未公認団体",
+   "登録団体"
+  ],
+  "def": "将来の公認を目指し、毎年届け出る学生団体。施設の貸出や保険などの便宜は受けられない。",
+  "src": [
+   {
+    "l": "塾生サイト 学生団体",
+    "u": "https://www.students.keio.ac.jp/com/life/extracurricular/club.html"
+   }
+  ]
+ },
+ {
+  "term": "CDPオフィス",
+  "alias": [
+   "就職・進路支援担当",
+   "シーディーピー"
+  ],
+  "def": "Α館1階にある就職・進路の窓口。個別相談、セミナー、求人やインターン情報の提供を行う。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.10",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "フィールド研究",
+  "alias": [
+   "フィールド研究1",
+   "フィールド研究2"
+  ],
+  "def": "休校期間の現地調査や就業体験を、事前の許可を得て単位にする科目。取消はできない。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.20",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "海外研修(外国語)",
+  "alias": [
+   "外国語海外研修",
+   "海外研修A"
+  ],
+  "def": "夏・春の休校期間に海外で学ぶ言語科目。参加直後の学期に履修申告をし、取消はできない。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.18",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "派遣交換留学",
+  "alias": [
+   "交換留学"
+  ],
+  "def": "大学の協定校へ約1学年間(約10か月)行く留学。留学先の学費は免除され、慶應の学費を納める。",
+  "src": [
+   {
+    "l": "国際センター 派遣交換留学概要",
+    "u": "https://www.ic.keio.ac.jp/keio_student/exchange/ex_ex.html"
+   }
+  ]
+ },
+ {
+  "term": "単位認定・在学期間算入",
+  "alias": [
+   "単位認定",
+   "在学期間算入"
+  ],
+  "def": "留学先の単位を慶應の単位にする申請と、留学期間を最長1年まで在学期間に入れる申請。",
+  "src": [
+   {
+    "l": "塾生サイト 休学・留学・退学(SFC総環)",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/procedure/status/apply.html"
+   }
+  ]
+ },
+ {
+  "term": "サティフィケート",
+  "alias": [
+   "修了証"
+  ],
+  "def": "所定の科目や要件を満たしたときに出る修了証。GIGAやパースペクティブなどにある。",
+  "src": [
+   {
+    "l": "塾生サイト GIGAプログラム",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/giga-certificate.html"
+   },
+   {
+    "l": "塾生サイト パースペクティブ",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/class/registration/perspective.html"
+   }
+  ]
+ },
+ {
+  "term": "ORF(Open Research Forum)",
+  "alias": [
+   "ORF",
+   "万学博覧会"
+  ],
+  "def": "SFC研究所が毎年秋に開く、SFCの研究成果を社会に公開するイベント。1996年に始まった。",
+  "src": [
+   {
+    "l": "SFC キャンパスカレンダー",
+    "u": "https://www.keio.ac.jp/ja/sfc-pem/campus-life/calendar/"
+   }
+  ]
+ },
+ {
+  "term": "オフィスアワー",
+  "alias": [],
+  "def": "教員が週に1回設ける、学生の指導や相談に応じる時間。担当以外の先生にも、個人研究室で相談できる。",
+  "src": [
+   {
+    "l": "SFC 学習・研究を支援するサービス",
+    "u": "https://www.keio.ac.jp/ja/sfc-pem/campus-life/service/"
+   }
+  ]
+ },
+ {
+  "term": "七夕祭",
+  "alias": [],
+  "def": "SFCの学園祭。SFC開設当初から続く、学生が企画・運営する夏祭りで、毎年夏に開かれる。",
+  "src": [
+   {
+    "l": "慶應義塾 学園祭一覧",
+    "u": "https://www.keio.ac.jp/ja/student-life/festival/"
+   },
+   {
+    "l": "SFC キャンパスカレンダー",
+    "u": "https://www.keio.ac.jp/ja/sfc-pem/campus-life/calendar/"
+   }
+  ]
+ },
+ {
+  "term": "4年一貫教育プログラム",
+  "alias": [
+   "学部大学院4年一貫",
+   "4年一貫"
+  ],
+  "def": "学部3年と修士1年の計4年で、学士と修士の2つの学位を取れる道を開く制度。第1学年の2学期目に申請する。",
+  "src": [
+   {
+    "l": "塾生サイト 学部・大学院修士4年一貫教育プログラム",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/procedure/4yr-integrate-pgm/index.html"
+   }
+  ]
+ },
+ {
+  "term": "新入生お知らせシステム",
+  "alias": [
+   "新入生システム",
+   "fresh"
+  ],
+  "def": "入学前から入学直後の連絡を集めたWebサイト。慶應ID登録後に使え、クラスや学籍番号の発表もここで出る。",
+  "src": [
+   {
+    "l": "入学後の行事と諸手続について(SFC・2026年4月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/02cf31cba980e4b5f570a4777595502112d94efadf0a5c6d30eb410362b8b7d9"
+   }
+  ]
+ },
+ {
+  "term": "アクティベーション",
+  "alias": [
+   "慶應IDの登録",
+   "ID登録"
+  ],
+  "def": "慶應ID(keio.jp)を手に入れるための登録作業。入学前の決まった期間に、本人が行う。",
+  "src": [
+   {
+    "l": "keio.jpマニュアル(湘南藤沢KIC)",
+    "u": "https://www.sfc.itc.keio.ac.jp/ja/keiojp_manual.html"
+   }
+  ]
+ },
+ {
+  "term": "SFC-CNSアカウント",
+  "alias": [
+   "CNSアカウント",
+   "CNS"
+  ],
+  "def": "SFCのキャンパスネットワークを使うためのID。入学前に、PCからオンラインで登録する。",
+  "src": [
+   {
+    "l": "SFC-CNSアカウントのオンライン登録のお願い(2026年9月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/f923c0639076d19d9f59cfb0422dce5d25a020cd68fb165e8ef3fadd1b42d65f"
+   }
+  ]
+ },
+ {
+  "term": "通学証明書",
+  "alias": [
+   "通学定期の証明書"
+  ],
+  "def": "通学定期を買うための紙の証明書。証明書発行サービスで申請し、発行機かコンビニで印刷する。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.7",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "学生カード",
+  "alias": [],
+  "def": "住所・保証人・緊急連絡先などを書いて出す書類。病気やけがなどの緊急連絡に使われる。",
+  "src": [
+   {
+    "l": "入学後の行事と諸手続について(SFC・2026年4月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/02cf31cba980e4b5f570a4777595502112d94efadf0a5c6d30eb410362b8b7d9"
+   }
+  ]
+ },
+ {
+  "term": "クラス担任",
+  "alias": [
+   "担任"
+  ],
+  "def": "入学後の学習や生活の相談相手になる先生。2名が割り当てられ、オリエンテーションで顔合わせをする。",
+  "src": [
+   {
+    "l": "入学後の行事と諸手続について(SFC・2026年4月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/02cf31cba980e4b5f570a4777595502112d94efadf0a5c6d30eb410362b8b7d9"
+   }
+  ]
+ },
+ {
+  "term": "キックオフ・レクチャー",
+  "alias": [
+   "キックオフレクチャー"
+  ],
+  "def": "大学生活のはじめに、いろいろな分野の人を招いて行う講演。必ず参加するよう案内されている。",
+  "src": [
+   {
+    "l": "入学後の行事と諸手続について(SFC・2026年4月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/02cf31cba980e4b5f570a4777595502112d94efadf0a5c6d30eb410362b8b7d9"
+   }
+  ]
+ },
+ {
+  "term": "TOEFL-ITP",
+  "alias": [
+   "トーフル",
+   "英語のレベル分け"
+  ],
+  "def": "英語のレベル分けのために、入学時に必ず受ける試験。当日は、印刷した受験票を持っていく。",
+  "src": [
+   {
+    "l": "入学後の行事と諸手続について(SFC・2026年4月入学者向けPDF)",
+    "u": "https://www.keio.ac.jp/files/02cf31cba980e4b5f570a4777595502112d94efadf0a5c6d30eb410362b8b7d9"
+   }
+  ]
+ }
+]

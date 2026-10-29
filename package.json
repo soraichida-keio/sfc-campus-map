@@ -1,0 +1,18 @@
+{
+  "name": "sfc-campus-map",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "dev": "node tools/build.mjs --watch",
+    "deploy": "node tools/build.mjs && wrangler deploy"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.151.3"
+  }
+}

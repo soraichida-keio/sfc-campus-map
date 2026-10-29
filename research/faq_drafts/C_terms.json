@@ -1,0 +1,233 @@
+[
+ {
+  "term": "カモる",
+  "alias": [
+   "カモり",
+   "カモる"
+  ],
+  "def": "池のほとりの芝生で昼食をとったり日なたぼっこをしたりして、のんびりすること。鴨池にちなむ学生の言い方。",
+  "src": [
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   }
+  ]
+ },
+ {
+  "term": "タブリエ",
+  "alias": [
+   "ファカルティクラブ",
+   "教職員食堂"
+  ],
+  "def": "シグマ館1階にあるイタリアンの教職員食堂。教職員と一緒に行けば、塾生も利用できる。",
+  "src": [
+   {
+    "l": "食堂・ラウンジ・生協(慶應義塾)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/cafe-coop/"
+   }
+  ]
+ },
+ {
+  "term": "レディバード",
+  "alias": [
+   "レディーバード"
+  ],
+  "def": "シグマ館1階、タブリエの隣のカフェ。ピザやパスタが食べられる。平日の昼から夕方まで営業。",
+  "src": [
+   {
+    "l": "食堂・ラウンジ・生協(慶應義塾)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/cafe-coop/"
+   }
+  ]
+ },
+ {
+  "term": "ソルトダイニング",
+  "alias": [
+   "ソルトハウス食堂",
+   "ソルト・ハウス"
+  ],
+  "def": "イータヴィレッジの共用棟にある学生食堂。お昼のランチだけ営業していて、寮生以外も使える。",
+  "src": [
+   {
+    "l": "食堂・ラウンジ・生協(慶應義塾)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/cafe-coop/"
+   }
+  ]
+ },
+ {
+  "term": "学生ラウンジ(鴨池テラス)",
+  "alias": [
+   "サブウェイ",
+   "鴨池テラス",
+   "学生ラウンジ"
+  ],
+  "def": "オメガ館の横にある学生ラウンジ。サブウェイが入っていて、屋上は池を見渡せる鴨池テラスになっている。",
+  "src": [
+   {
+    "l": "食堂・ラウンジ・生協(慶應義塾)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/cafe-coop/"
+   },
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   }
+  ]
+ },
+ {
+  "term": "鴨池ラウンジ",
+  "alias": [
+   "かもいけラウンジ"
+  ],
+  "def": "シグマ館地下1階のラウンジ。個人席39席とグループ席55席などがあり、約100人が使える。",
+  "src": [
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   }
+  ]
+ },
+ {
+  "term": "ファブスペース",
+  "alias": [
+   "ファブ",
+   "ファブキャンパス"
+  ],
+  "def": "メディアセンター1階の工作スペース。3Dプリンタ・レーザーカッター・ミシンなどが使える。",
+  "src": [
+   {
+    "l": "図書館 ファブスペース",
+    "u": "https://www.lib.keio.ac.jp/sfc/facilities/fabspace.html"
+   }
+  ]
+ },
+ {
+  "term": "AVカウンター",
+  "alias": [
+   "エーブイカウンター",
+   "AV機材"
+  ],
+  "def": "メディアセンター1階の窓口。カメラなどの撮影機材の貸出と、ファブスペースの受付をする。",
+  "src": [
+   {
+    "l": "図書館 AV機材の貸出・返却",
+    "u": "https://www.lib.keio.ac.jp/sfc/service/avcir.html"
+   }
+  ]
+ },
+ {
+  "term": "レファレンスデスク",
+  "alias": [
+   "レファレンス",
+   "レファ"
+  ],
+  "def": "メディアセンター1階の相談窓口。本や論文の探し方、図書館の使い方を教えてくれる。",
+  "src": [
+   {
+    "l": "図書館 レファレンスサービス",
+    "u": "https://www.lib.keio.ac.jp/sfc/service/ref.html"
+   }
+  ]
+ },
+ {
+  "term": "湘南藤沢情報センター",
+  "alias": [
+   "KIC",
+   "ITC",
+   "情報センター",
+   "CNSサービス窓口"
+  ],
+  "def": "ミュー館1階北側にある窓口。学内ネットワークやアカウント、貸出PCなどの相談を受けつけている。",
+  "src": [
+   {
+    "l": "湘南藤沢情報センター",
+    "u": "https://www.sfc.itc.keio.ac.jp/"
+   },
+   {
+    "l": "情報センター PC貸出",
+    "u": "https://www.sfc.itc.keio.ac.jp/en/computer_rentalpc_sfc.html"
+   }
+  ]
+ },
+ {
+  "term": "保守管理室",
+  "alias": [
+   "湘南コミュニティー",
+   "管理室"
+  ],
+  "def": "アルファ館1階にある部屋。貸しロッカーや近隣駐車場の契約、持ち主不明の拾得物の保管を扱う。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.10",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "SFC GUIDE 2026 p.7",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   }
+  ]
+ },
+ {
+  "term": "βヴィレッジ",
+  "alias": [
+   "ベータヴィレッジ",
+   "DFF-W"
+  ],
+  "def": "寝食をともにして研究する滞在型の施設。滞在棟・ドーム・工房などがあり、最大120人が収容できる。",
+  "src": [
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   },
+   {
+    "l": "βヴィレッジ(公式サイト)",
+    "u": "https://b-village.sfc.keio.ac.jp/"
+   }
+  ]
+ },
+ {
+  "term": "Ηヴィレッジ(国際学生寮)",
+  "alias": [
+   "イータヴィレッジ",
+   "国際学生寮",
+   "イータ"
+  ],
+  "def": "キャンパス内の国際学生寮。4つの居住棟と、食堂のある共用棟ソルトハウスでできている。",
+  "src": [
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   }
+  ]
+ },
+ {
+  "term": "夜間残留",
+  "alias": [
+   "残留"
+  ],
+  "def": "夜も学内に残って活動すること。いまは科目担当の許可を得た正課の活動だけが、事前申請で認められる。",
+  "src": [
+   {
+    "l": "SFC GUIDE 2026 p.8",
+    "u": "https://www.students.keio.ac.jp/sfc/pmei/files/sfcguide2026.pdf"
+   },
+   {
+    "l": "施設・設備(慶應義塾 SFC)",
+    "u": "https://www.keio.ac.jp/ja/sfc/amenities/"
+   }
+  ]
+ },
+ {
+  "term": "指定資料(リザーブ)",
+  "alias": [
+   "リザーブ",
+   "指定図書"
+  ],
+  "def": "教員の希望で授業用に取り置かれる資料。館外へは貸し出さず、2階の専用の書架で読む。",
+  "src": [
+   {
+    "l": "図書館 指定資料・教材印刷",
+    "u": "https://www.lib.keio.ac.jp/sfc/service/reserve.html"
+   }
+  ]
+ }
+]

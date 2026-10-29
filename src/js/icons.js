@@ -1,0 +1,41 @@
+// 24px の線アイコン(SF Symbols 風・1.8px ストローク)。ブラウザと Node(ビルド)の両方から使う。
+const p = (d) => `<svg class="ic" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${d}</svg>`;
+
+export const ICONS = {
+  home: p('<path d="M4 11.5 12 5l8 6.5"/><path d="M6 10v9h12v-9"/><path d="M10 19v-5h4v5"/>'),
+  map: p('<path d="M9 4 3.5 6.5v13L9 17l6 3 5.5-2.5v-13L15 7 9 4z"/><path d="M9 4v13M15 7v13"/>'),
+  rooms: p('<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M4 10h16M10 4v16"/>'),
+  guide: p('<path d="M5 5.5A2.5 2.5 0 0 1 7.5 3H19v15H7.5A2.5 2.5 0 0 0 5 20.5v-15z"/><path d="M5 20.5A2.5 2.5 0 0 0 7.5 23H19"/><path d="M9 8h6M9 12h4"/>'),
+  route: p('<circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8 18h6.5a3.5 3.5 0 0 0 0-7h-5a3.5 3.5 0 0 1 0-7H16"/>'),
+  timetable: p('<rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="M8 14h3M13 14h3M8 17.5h3"/>'),
+  life: p('<path d="M7 3v8a2 2 0 0 0 2 2v8"/><path d="M5 3v6M9 3v6"/><path d="M17 21V3c-2 1-3.5 4-3.5 7.5 0 1.7 1.3 2.5 3.5 2.5"/>'),
+  bus: p('<rect x="4.5" y="3.5" width="15" height="14" rx="3"/><path d="M4.5 11h15M8 20.5v-3M16 20.5v-3M8.5 14.5h.01M15.5 14.5h.01"/>'),
+  faq: p('<path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-6l-4 3.5V17H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M10 9.5a2 2 0 1 1 2.8 1.8c-.6.3-.8.7-.8 1.2M12 14.5h.01"/>'),
+  info: p('<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>'),
+  search: p('<circle cx="11" cy="11" r="6.5"/><path d="m20 20-4-4"/>'),
+  close: p('<path d="M6 6l12 12M18 6 6 18"/>'),
+  chevron: p('<path d="m9 6 6 6-6 6"/>'),
+  chevronDown: p('<path d="m6 9 6 6 6-6"/>'),
+  arrow: p('<path d="M5 12h14M13 6l6 6-6 6"/>'),
+  external: p('<path d="M14 4h6v6M20 4l-9 9"/><path d="M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4"/>'),
+  sun: p('<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6 6 6M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/>'),
+  moon: p('<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/>'),
+  speaker: p('<path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/>'),
+  speakerOff: p('<path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5H4z"/><path d="m16 9.5 5 5M21 9.5l-5 5"/>'),
+  send: p('<path d="M4 12 20 4l-4.5 16-3.5-6.5L4 12z"/><path d="M12 13.5 20 4"/>'),
+  pin: p('<path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/>'),
+  check: p('<path d="m5 12.5 4.5 4.5L19 7.5"/>'),
+  menu: p('<path d="M4 7h16M4 12h16M4 17h16"/>'),
+  sidebar: p('<rect x="3.5" y="4.5" width="17" height="15" rx="3"/><path d="M9.5 4.5v15"/>'),
+  sparkle: p('<path d="M12 3.5 13.8 9l5.7 1.8-5.7 1.8L12 18l-1.8-5.4-5.7-1.8L10.2 9 12 3.5z"/><path d="M19 3.5v3M17.5 5h3"/>'),
+  cube: p('<path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="m4 7.5 8 4.5 8-4.5M12 12v9"/>'),
+  walk: p('<circle cx="13" cy="4.5" r="1.8"/><path d="m9 21 2.5-6-2-2.5L11 8l3.5 1.5 2.5 3"/><path d="m14.5 14.5 1.5 6.5M8 12l-2.5 1"/>'),
+  clock: p('<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>'),
+  book: p('<path d="M6 4h11a2 2 0 0 1 2 2v14H8a2 2 0 0 1-2-2V4z"/><path d="M6 18a2 2 0 0 1 2-2h11"/>'),
+  plus: p('<path d="M12 5v14M5 12h14"/>'),
+  trash: p('<path d="M5 7h14M10 7V4.5h4V7M7 7l1 13h8l1-13"/>'),
+  share: p('<path d="M12 15V4M8 8l4-4 4 4"/><path d="M5 12v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/>'),
+  download: p('<path d="M12 4v11M8 11l4 4 4-4"/><path d="M5 19h14"/>'),
+};
+
+export const icon = (name) => ICONS[name] || '';

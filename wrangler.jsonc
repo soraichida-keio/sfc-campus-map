@@ -1,0 +1,10 @@
+{
+  // 静的アセットだけで動く構成(Workers のスクリプト不要・無料枠)。
+  "name": "sfc-campus-map",
+  "compatibility_date": "2025-10-01",
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

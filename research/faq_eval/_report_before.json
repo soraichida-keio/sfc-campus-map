@@ -1,0 +1,2425 @@
+{
+ "label": "before",
+ "stat": {
+  "top1": 366,
+  "top3": 472,
+  "wrongFaq": 224,
+  "fallback": 59,
+  "other": 53,
+  "n": 702
+ },
+ "bySty": {
+  "A": {
+   "top1": 150,
+   "n": 234
+  },
+  "B": {
+   "top1": 139,
+   "n": 234
+  },
+  "C": {
+   "top1": 77,
+   "n": 234
+  }
+ },
+ "byCat": {
+  "キャンパス": {
+   "top1": 10,
+   "n": 27
+  },
+  "通学・入学": {
+   "top1": 51,
+   "n": 93
+  },
+  "授業・履修": {
+   "top1": 82,
+   "n": 183
+  },
+  "施設": {
+   "top1": 55,
+   "n": 102
+  },
+  "手続き・お金": {
+   "top1": 42,
+   "n": 87
+  },
+  "健康・安全": {
+   "top1": 19,
+   "n": 39
+  },
+  "IT・ネット": {
+   "top1": 26,
+   "n": 45
+  },
+  "課外・国際・キャリア": {
+   "top1": 68,
+   "n": 105
+  },
+  "SFC について": {
+   "top1": 13,
+   "n": 21
+  }
+ },
+ "offFalsePositive": 20,
+ "offN": 80,
+ "uncDist": {
+  "FAQを答えた": 35,
+  "b": 2,
+  "分からない/どれ？": 2,
+  "route": 1
+ },
+ "fails": [
+  {
+   "id": "roomcode",
+   "sty": "A",
+   "q": "κ21ってどの建物の何階？",
+   "got": "room:κ21",
+   "inChips": false
+  },
+  {
+   "id": "roomcode",
+   "sty": "B",
+   "q": "授業の教室がκ21ってなってるんだけど、これはどこを指してるのか分からない",
+   "got": "room:κ21",
+   "inChips": false
+  },
+  {
+   "id": "roomcode",
+   "sty": "C",
+   "q": "きょうしつのばんごうのみかた、ぎりしゃもじのやつ",
+   "got": "stock:unknown",
+   "inChips": false
+  },
+  {
+   "id": "to-shonandai",
+   "sty": "B",
+   "q": "一人暮らしで湘南台駅を使うんだけど、そこから学校までどうやって行けばいいの？",
+   "got": "faq:b-dorm",
+   "inChips": true
+  },
+  {
+   "id": "to-shonandai",
+   "sty": "C",
+   "q": "しょうなんだいえきからのバスのりばおしえて",
+   "got": "stock:open",
+   "inChips": false
+  },
+  {
+   "id": "to-tsujido",
+   "sty": "C",
+   "q": "つじどうから通うばあいの交通手段を教えて下さい",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "to-fujisawa",
+   "sty": "C",
+   "q": "ふじさわ駅発のルートってないの？",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "periods",
+   "sty": "C",
+   "q": "じげんごとのじかんわり教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "break",
+   "sty": "A",
+   "q": "授業の合間って何分あくの？",
+   "got": "faq:d-intern",
+   "inChips": false
+  },
+  {
+   "id": "break",
+   "sty": "B",
+   "q": "次の授業が別の建物なんだけど、コマとコマの間の移動時間って足りる？",
+   "got": "faq:e-other-campus-class",
+   "inChips": true
+  },
+  {
+   "id": "break",
+   "sty": "C",
+   "q": "じゅぎょうのあいだのあきじかんってどれくらい",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "cafeteria",
+   "sty": "A",
+   "q": "お昼ごはん食べれる場所ある？",
+   "got": "b:sigma",
+   "inChips": false
+  },
+  {
+   "id": "cafeteria",
+   "sty": "C",
+   "q": "生協とろーそんのいち、おしえてくださいませ",
+   "got": "b:sigma",
+   "inChips": false
+  },
+  {
+   "id": "library",
+   "sty": "A",
+   "q": "図書館の閉館時間って何時？",
+   "got": "b:mu",
+   "inChips": false
+  },
+  {
+   "id": "library",
+   "sty": "B",
+   "q": "課題でレポート書くために図書館使いたいんだけど、場所と開いてる時間を教えて",
+   "got": "faq:a-ai",
+   "inChips": false
+  },
+  {
+   "id": "library",
+   "sty": "C",
+   "q": "めでぃあせんたーはいつまでやってますか",
+   "got": "b:mu",
+   "inChips": false
+  },
+  {
+   "id": "office",
+   "sty": "A",
+   "q": "証明書もらうとこってどこ？",
+   "got": "b:alpha",
+   "inChips": false
+  },
+  {
+   "id": "office",
+   "sty": "C",
+   "q": "がくじのまどぐち、しゅうがくそうだんもできる所はどこですか",
+   "got": "b:alpha",
+   "inChips": false
+  },
+  {
+   "id": "health",
+   "sty": "A",
+   "q": "体調悪い時どこ行けばいい？",
+   "got": "b:alpha",
+   "inChips": false
+  },
+  {
+   "id": "health",
+   "sty": "B",
+   "q": "授業中に気分が悪くなったとき、保健室みたいな場所ってキャンパスにある？",
+   "got": "faq:b-kyukyu",
+   "inChips": false
+  },
+  {
+   "id": "health",
+   "sty": "C",
+   "q": "ちょっとしんどいんですが医務室ってありますか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "keiojp",
+   "sty": "C",
+   "q": "けいおうあいでぃーとは？なにに使うものですか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "ksupport",
+   "sty": "A",
+   "q": "ケーサポって何を見るところ？",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "ksupport",
+   "sty": "B",
+   "q": "休講のお知らせとかをチェックするサイトがあるって聞いたけど、どれのこと？",
+   "got": "faq:d-circle-types",
+   "inChips": true
+  },
+  {
+   "id": "registration",
+   "sty": "C",
+   "q": "りしゅうのとうろくきかん、すぎたらおわり？",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "byod",
+   "sty": "A",
+   "q": "PCって買わなきゃだめ？",
+   "got": "faq:e-first-items",
+   "inChips": false
+  },
+  {
+   "id": "byod",
+   "sty": "C",
+   "q": "ラップトップの推奨めもりやSSDの容量を教えて下さい",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "kenkyukai",
+   "sty": "A",
+   "q": "ゼミってあるの？いつから？",
+   "got": "faq:e-guidance-kinds",
+   "inChips": true
+  },
+  {
+   "id": "kenkyukai",
+   "sty": "B",
+   "q": "研究会に入りたいんだけど、一年生のうちでも参加できる？",
+   "got": "faq:d-seminar-first",
+   "inChips": false
+  },
+  {
+   "id": "kenkyukai",
+   "sty": "C",
+   "q": "けんきゅうかいってなにするところなんですか",
+   "got": "faq:b-kansen",
+   "inChips": false
+  },
+  {
+   "id": "student-id",
+   "sty": "A",
+   "q": "学生証なくしたらやばい？",
+   "got": "faq:b-gakuseisho-lost",
+   "inChips": false
+  },
+  {
+   "id": "student-id",
+   "sty": "B",
+   "q": "学生証って毎日持って行かないとだめなの？家に置きっぱなしにしがち",
+   "got": "faq:e-gakuseisho-issue",
+   "inChips": false
+  },
+  {
+   "id": "student-id",
+   "sty": "C",
+   "q": "がくせいしょうの携行義務ってありますか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "bike",
+   "sty": "A",
+   "q": "チャリ通学ってしていいの？",
+   "got": "stock:open",
+   "inChips": false
+  },
+  {
+   "id": "bike",
+   "sty": "C",
+   "q": "くるまやげんつきでの通学は可能ですか",
+   "got": "stock:open",
+   "inChips": false
+  },
+  {
+   "id": "night",
+   "sty": "A",
+   "q": "泊まり込みの作業ってできる？",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "night",
+   "sty": "B",
+   "q": "グループ課題で終電を過ぎるまで大学に残りたいんだけど、夜は何時までいられる？",
+   "got": "faq:e-first-items",
+   "inChips": false
+  },
+  {
+   "id": "night",
+   "sty": "C",
+   "q": "よるおそくまで学校にいても怒られませんか",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "wifi",
+   "sty": "A",
+   "q": "学校のWi-Fiどう繋ぐ？",
+   "got": "faq:b-wifi-trouble",
+   "inChips": true
+  },
+  {
+   "id": "wifi",
+   "sty": "B",
+   "q": "パソコンを学内のネットにつなぎたいんだけど、分からないときはどこに聞けばいい？",
+   "got": "faq:c-locker",
+   "inChips": false
+  },
+  {
+   "id": "chuko",
+   "sty": "B",
+   "q": "同じ敷地に中学高校があるって聞いたけど、バスで間違えて降りたりしない？",
+   "got": "faq:d-circle-types",
+   "inChips": true
+  },
+  {
+   "id": "chuko",
+   "sty": "C",
+   "q": "ちゅうこうのバスていとまちがえそうでふあんです",
+   "got": "b:hs_south",
+   "inChips": false
+  },
+  {
+   "id": "kamoike",
+   "sty": "A",
+   "q": "かもいけって何のことなの？",
+   "got": "b:kamoike",
+   "inChips": false
+  },
+  {
+   "id": "kamoike",
+   "sty": "B",
+   "q": "授業の集合場所が鴨池ラウンジってなってたけど、鴨池ってキャンパスのどのへん？",
+   "got": "faq:c-kamoike-lounge",
+   "inChips": false
+  },
+  {
+   "id": "kamoike",
+   "sty": "C",
+   "q": "がりばーいけのことをカモイケっていうのですか？",
+   "got": "b:kamoike",
+   "inChips": false
+  },
+  {
+   "id": "slope",
+   "sty": "B",
+   "q": "足が不自由な友達が入学するんだけど、段差とか坂ってどんな感じで移動しやすい？",
+   "got": "faq:a-free-subject",
+   "inChips": false
+  },
+  {
+   "id": "slope",
+   "sty": "C",
+   "q": "バリアフリーのけいろ、くるまいすで入れるルートを教えて下さい",
+   "got": "faq:c-bf-legend",
+   "inChips": true
+  },
+  {
+   "id": "sokankan",
+   "sty": "C",
+   "q": "ぐるぐるまわる無料のばすのていりゅうじょはどこ",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "campus-village",
+   "sty": "A",
+   "q": "先輩に相談できる場ある？",
+   "got": "faq:a-advisor",
+   "inChips": false
+  },
+  {
+   "id": "campus-village",
+   "sty": "B",
+   "q": "入学したばかりでサークルや履修のことが分からないから、先輩に話を聞ける機会はある？",
+   "got": "faq:d-circle-find",
+   "inChips": true
+  },
+  {
+   "id": "campus-village",
+   "sty": "C",
+   "q": "しんにゅうせいむけのそうだんかいって開催されますか",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "a-credit-cap",
+   "sty": "C",
+   "q": "がっきごとのたんいのじょうげんは何たんいですか",
+   "got": "faq:a-check-button",
+   "inChips": false
+  },
+  {
+   "id": "a-lottery-lost",
+   "sty": "C",
+   "q": "ちゅうせんでおちた科目をもう一度とる方法ありますか",
+   "got": "faq:a-same-subject",
+   "inChips": false
+  },
+  {
+   "id": "a-task-selection",
+   "sty": "B",
+   "q": "授業の選抜が課題で決まるって書いてあったんだけど、その課題はどこに出せばいいの？",
+   "got": "faq:a-ai",
+   "inChips": true
+  },
+  {
+   "id": "a-task-selection",
+   "sty": "C",
+   "q": "かだいせんばつのていしゅつ方法とあて先を教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "a-first-second-round",
+   "sty": "C",
+   "q": "いちじしんこくとにじしんこくのちがいをしりたいです",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "a-check-button",
+   "sty": "B",
+   "q": "履修を入れ終わったけど、画面にあるチェックのボタンは必ず押さないといけないの？",
+   "got": "faq:b-mfa",
+   "inChips": true
+  },
+  {
+   "id": "a-check-button",
+   "sty": "C",
+   "q": "しんこくのえらーひょうじってどうやってかくにんするの",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "a-save-screen",
+   "sty": "B",
+   "q": "履修申告を終えたあと、ちゃんと登録できたか確かめるにはどうすればいい？",
+   "got": "faq:registration",
+   "inChips": true
+  },
+  {
+   "id": "a-save-screen",
+   "sty": "C",
+   "q": "とうろくかんりょうがめんは保存すべきでしょうか",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "a-cancel-course",
+   "sty": "B",
+   "q": "とった授業が思ってたのと違ったから、途中でやめたいんだけど手続きはある？",
+   "got": "faq:b-kaisei",
+   "inChips": false
+  },
+  {
+   "id": "a-cancel-course",
+   "sty": "C",
+   "q": "りしゅうをとりけすきかんってありますか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "a-fixed-classes",
+   "sty": "A",
+   "q": "最初の学期の時間割は自分で組む？",
+   "got": "faq:a-language-first",
+   "inChips": false
+  },
+  {
+   "id": "a-fixed-classes",
+   "sty": "B",
+   "q": "入学したての春学期って、体育や語学は自分で申告しなくても勝手に入ってるの？",
+   "got": "faq:a-language-first",
+   "inChips": false
+  },
+  {
+   "id": "a-fixed-classes",
+   "sty": "C",
+   "q": "いちがっきめのじゅぎょうはじどうとうろくされますか",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "a-info-basic",
+   "sty": "C",
+   "q": "じょうほうきそ1のたんいがないと次に進めませんか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "a-language-first",
+   "sty": "A",
+   "q": "最初の外国語って選べる？",
+   "got": "faq:d-languages",
+   "inChips": true
+  },
+  {
+   "id": "a-language-first",
+   "sty": "C",
+   "q": "ごがくのくらすはちゅうせんですか、へんこうできますか",
+   "got": "faq:a-placement-test",
+   "inChips": false
+  },
+  {
+   "id": "a-placement-test",
+   "sty": "A",
+   "q": "もう習った言語は飛び級できる？",
+   "got": "faq:a-languages",
+   "inChips": false
+  },
+  {
+   "id": "a-pe-booking",
+   "sty": "A",
+   "q": "体育の予約っていつから？",
+   "got": "faq:e-health-check",
+   "inChips": true
+  },
+  {
+   "id": "a-pe-booking",
+   "sty": "B",
+   "q": "体育の2以降は、自分で授業を予約するって聞いたけど、どんな仕組みなの？",
+   "got": "faq:d-circle-types",
+   "inChips": false
+  },
+  {
+   "id": "a-pe-booking",
+   "sty": "C",
+   "q": "スポーツの授業のよやくのしかたと単位がとれる条件を教えて",
+   "got": "faq:a-promo-3",
+   "inChips": false
+  },
+  {
+   "id": "a-pe-auto",
+   "sty": "B",
+   "q": "体育1の単位をとれたら、次の体育はそのまま勝手に入るの？それとも自分で申告する？",
+   "got": "faq:a-pe-first",
+   "inChips": true
+  },
+  {
+   "id": "a-other-faculty",
+   "sty": "A",
+   "q": "日吉の授業ってSFCから取れる？",
+   "got": "faq:a-other-campus-consecutive",
+   "inChips": true
+  },
+  {
+   "id": "a-other-faculty",
+   "sty": "B",
+   "q": "他学部の科目を取りたいんだけど、どんな条件があるの？許可とかいる？",
+   "got": "faq:e-first-items",
+   "inChips": true
+  },
+  {
+   "id": "a-other-faculty",
+   "sty": "C",
+   "q": "みたのじゅぎょうをうけたい場合のじょうけんをおしえてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "a-grad-courses",
+   "sty": "A",
+   "q": "院の授業って学部生でも受けれる？",
+   "got": "faq:d-two-faculties",
+   "inChips": true
+  },
+  {
+   "id": "a-grad-courses",
+   "sty": "C",
+   "q": "だいがくいんのこうぎを先どりできるってほんと？",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "a-free-subject",
+   "sty": "C",
+   "q": "じゆうかもくでとった単位はそつぎょうようけんにはいりますか",
+   "got": "faq:d-ryugaku-credit",
+   "inChips": true
+  },
+  {
+   "id": "a-same-subject",
+   "sty": "C",
+   "q": "おなじ科目名をふたたびりしゅうすることはできますか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "a-retake-grade",
+   "sty": "C",
+   "q": "ふごうかくだった科目をとりなおすと評価はかきかわる？",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "a-audit",
+   "sty": "C",
+   "q": "ちょうこうせいとしてじゅぎょうに参加する制度ありますか",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "a-teaching",
+   "sty": "A",
+   "q": "教員免許ってとれるの？いつから？",
+   "got": "faq:d-qualification",
+   "inChips": true
+  },
+  {
+   "id": "a-teaching",
+   "sty": "B",
+   "q": "将来先生になりたいんだけど、教職の授業はいつから登録できる？",
+   "got": "faq:e-first-items",
+   "inChips": true
+  },
+  {
+   "id": "a-teaching",
+   "sty": "C",
+   "q": "きょうしょくかてい、一年のうちからはじめられますか",
+   "got": "faq:c-av-loan",
+   "inChips": false
+  },
+  {
+   "id": "a-intensive-term",
+   "sty": "B",
+   "q": "夏休みに海外研修に行こうと思ってるんだけど、いつ履修の申告をすればいいの？",
+   "got": "faq:d-short-prog",
+   "inChips": true
+  },
+  {
+   "id": "a-intensive-term",
+   "sty": "C",
+   "q": "しゅうちゅうこうぎは休み前にりしゅうしんこくしますか",
+   "got": "b:hs_south",
+   "inChips": false
+  },
+  {
+   "id": "a-giga",
+   "sty": "A",
+   "q": "英語で受ける授業ってある？",
+   "got": "faq:d-intern",
+   "inChips": false
+  },
+  {
+   "id": "a-giga",
+   "sty": "B",
+   "q": "英語だけで学ぶプログラムがあるって聞いたけど、一般の学生でも授業を取れるの？",
+   "got": "faq:d-giga",
+   "inChips": false
+  },
+  {
+   "id": "a-perspective",
+   "sty": "B",
+   "q": "分野をまたいで学べるコースみたいなのがあるって聞いたけど、どんなテーマがあるの？",
+   "got": "faq:d-circle-types",
+   "inChips": false
+  },
+  {
+   "id": "a-syllabus",
+   "sty": "A",
+   "q": "授業の中身ってどこで見れる？",
+   "got": "faq:d-intern",
+   "inChips": false
+  },
+  {
+   "id": "a-syllabus",
+   "sty": "B",
+   "q": "取る授業を決める前に、内容や成績のつけ方を調べたいんだけど、どこを見ればいい？",
+   "got": "faq:e-first-items",
+   "inChips": false
+  },
+  {
+   "id": "a-eval",
+   "sty": "A",
+   "q": "期末試験だけで成績決まるの？",
+   "got": "faq:a-exam-schedule",
+   "inChips": true
+  },
+  {
+   "id": "a-eval",
+   "sty": "C",
+   "q": "せいせきひょうかのしかたについて知りたいです",
+   "got": "faq:e-first-items",
+   "inChips": false
+  },
+  {
+   "id": "a-grade-scale",
+   "sty": "A",
+   "q": "Aって何点以上でもらえるの？",
+   "got": "faq:b-shogakukin-kingaku",
+   "inChips": false
+  },
+  {
+   "id": "a-grade-scale",
+   "sty": "B",
+   "q": "成績のアルファベットは何点からどの評価になる？何点で単位がもらえるの？",
+   "got": "b:alpha",
+   "inChips": false
+  },
+  {
+   "id": "a-grade-scale",
+   "sty": "C",
+   "q": "えすえーびーしーでぃーのてんすうのめやすは？",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "a-gpa-low",
+   "sty": "B",
+   "q": "もしGPAがすごく低かったら、大学から何か言われたり不利益があったりする？",
+   "got": "faq:a-gpa",
+   "inChips": false
+  },
+  {
+   "id": "a-gpa-low",
+   "sty": "C",
+   "q": "ひくいじーぴーえーだとたいがくになりますか",
+   "got": "faq:a-gpa",
+   "inChips": false
+  },
+  {
+   "id": "a-grade-when",
+   "sty": "B",
+   "q": "学期が終わったあと、成績ってどこでいつ見られるの？紙で届くのかな",
+   "got": "faq:a-save-screen",
+   "inChips": true
+  },
+  {
+   "id": "a-grade-when",
+   "sty": "C",
+   "q": "せいせきひょうはゆうそうされますか、ねっとでみれる？",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "a-guarantor",
+   "sty": "C",
+   "q": "せいせきひょうって保護者にひらかれますか",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "a-promo-2",
+   "sty": "A",
+   "q": "二年に上がるのに何単位いる？",
+   "got": "faq:a-credit-cap",
+   "inChips": false
+  },
+  {
+   "id": "a-promo-2",
+   "sty": "B",
+   "q": "一年生のうちに最低何単位取っておけば二年に上がれるのか知りたい",
+   "got": "faq:d-seminar-first",
+   "inChips": false
+  },
+  {
+   "id": "a-promo-2",
+   "sty": "C",
+   "q": "2年次への進級要件をおしえてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "a-promo-3",
+   "sty": "A",
+   "q": "三年になれる単位数って？",
+   "got": "faq:d-kaigai-kenshu",
+   "inChips": false
+  },
+  {
+   "id": "a-promo-3",
+   "sty": "B",
+   "q": "2年生の終わりに三年へ上がるために、語学とかどこまで取ればいい？",
+   "got": "faq:a-promo-2",
+   "inChips": false
+  },
+  {
+   "id": "a-promo-3",
+   "sty": "C",
+   "q": "さんねんせいにしんきゅうするのに必要なたんい",
+   "got": "faq:a-graduation",
+   "inChips": false
+  },
+  {
+   "id": "a-promo-4",
+   "sty": "A",
+   "q": "四年生に上がるための条件って何？",
+   "got": "faq:a-promo-3",
+   "inChips": true
+  },
+  {
+   "id": "a-promo-4",
+   "sty": "B",
+   "q": "三年生なんだけど、四年生になるには研究会とか体育も必要なの？",
+   "got": "faq:kenkyukai",
+   "inChips": false
+  },
+  {
+   "id": "a-promo-4",
+   "sty": "C",
+   "q": "最終学年へ進むための要件を教えて頂けますか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "a-graduation",
+   "sty": "B",
+   "q": "四年で卒業したいんだけど、全部で何単位そろえればいいの？",
+   "got": "faq:d-ryugaku-credit",
+   "inChips": true
+  },
+  {
+   "id": "a-graduation",
+   "sty": "C",
+   "q": "そつぎょうようけんの総取得単位数",
+   "got": "faq:a-free-subject",
+   "inChips": true
+  },
+  {
+   "id": "a-when-decided",
+   "sty": "A",
+   "q": "卒業できるかっていつ分かる？",
+   "got": "faq:a-graduation",
+   "inChips": false
+  },
+  {
+   "id": "a-when-decided",
+   "sty": "B",
+   "q": "九月に卒業する人もいるって聞いたけど、判定は何月にわかるの？",
+   "got": "faq:d-circle-types",
+   "inChips": false
+  },
+  {
+   "id": "a-when-decided",
+   "sty": "C",
+   "q": "進級可否って成績発表と同時にわかる感じですか",
+   "got": "faq:a-grade-when",
+   "inChips": true
+  },
+  {
+   "id": "a-curriculum",
+   "sty": "A",
+   "q": "授業の全体の仕組みどうなってる？",
+   "got": "faq:d-intern",
+   "inChips": false
+  },
+  {
+   "id": "a-curriculum",
+   "sty": "C",
+   "q": "SFCの学びの枠組みを大まかに教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "a-languages",
+   "sty": "A",
+   "q": "外国語って何語まである？",
+   "got": "faq:d-languages",
+   "inChips": false
+  },
+  {
+   "id": "a-languages",
+   "sty": "B",
+   "q": "第二外国語でどんな言葉が選べるのか、種類を知りたいんだけど",
+   "got": "faq:d-languages",
+   "inChips": false
+  },
+  {
+   "id": "a-languages",
+   "sty": "C",
+   "q": "英語いがいのごがくはなにがとれる？",
+   "got": "faq:a-english-level",
+   "inChips": false
+  },
+  {
+   "id": "a-kenkyukai-select",
+   "sty": "B",
+   "q": "研究会に入りたいんだけど、応募の時期と選考の流れはどうなってる？",
+   "got": "faq:e-first-weeks",
+   "inChips": false
+  },
+  {
+   "id": "a-kenkyukai-select",
+   "sty": "C",
+   "q": "ゼミの申し込みっていつごろ始まりますか",
+   "got": "faq:b-shogakukin-start",
+   "inChips": true
+  },
+  {
+   "id": "a-sotsupro",
+   "sty": "B",
+   "q": "四年になったら卒業制作か論文を出すと聞いたけど、流れを教えて",
+   "got": "faq:d-ryugaku-credit",
+   "inChips": false
+  },
+  {
+   "id": "a-sotsupro",
+   "sty": "C",
+   "q": "そつぷろの進めかたがわからないです",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "a-mentor",
+   "sty": "B",
+   "q": "卒業制作の担当になってもらう先生は、非常勤の人でも頼めるのかな",
+   "got": "faq:c-fab-3d-online",
+   "inChips": true
+  },
+  {
+   "id": "a-mentor",
+   "sty": "C",
+   "q": "指導してくれるせんせいって、ゼミも一緒じゃないとだめですか",
+   "got": "faq:b-shugaku-shien",
+   "inChips": false
+  },
+  {
+   "id": "a-abroad-sotsupro",
+   "sty": "A",
+   "q": "留学中でも卒業制作できる？",
+   "got": "faq:d-ryugaku-credit",
+   "inChips": true
+  },
+  {
+   "id": "a-abroad-sotsupro",
+   "sty": "B",
+   "q": "四年の春から海外に行く予定なんだけど、卒業の準備はどうなるの？",
+   "got": "faq:b-ryugaku-kyugaku",
+   "inChips": false
+  },
+  {
+   "id": "a-fast-grad",
+   "sty": "A",
+   "q": "三年半で卒業ってできる？",
+   "got": "faq:d-early-grad",
+   "inChips": false
+  },
+  {
+   "id": "a-fast-grad",
+   "sty": "C",
+   "q": "飛び級みたいな早期修了の制度ありますか",
+   "got": "faq:d-tanabata",
+   "inChips": false
+  },
+  {
+   "id": "a-extension",
+   "sty": "A",
+   "q": "単位足りてるけど残れる？",
+   "got": "faq:d-intern-credit",
+   "inChips": false
+  },
+  {
+   "id": "a-extension",
+   "sty": "B",
+   "q": "卒業単位はもう取れたんだけど、もう一学期だけ在籍し続けたい",
+   "got": "faq:a-graduation",
+   "inChips": false
+  },
+  {
+   "id": "a-extension",
+   "sty": "C",
+   "q": "卒業できる状態でも在学を延ばせますか",
+   "got": "faq:a-graduation",
+   "inChips": true
+  },
+  {
+   "id": "a-advisor",
+   "sty": "B",
+   "q": "時間割の組み方がわからなくて困ってるんだけど、聞ける先生いる？",
+   "got": "faq:e-mail-which",
+   "inChips": false
+  },
+  {
+   "id": "a-advisor",
+   "sty": "C",
+   "q": "りしゅうについての質問先をおしえてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "a-cancel-class",
+   "sty": "A",
+   "q": "休講の情報ってどこで見られる？",
+   "got": "faq:a-syllabus",
+   "inChips": true
+  },
+  {
+   "id": "a-cancel-class",
+   "sty": "B",
+   "q": "今日の授業が先生の都合でなくなったか、確認できるところはある？",
+   "got": "stock:period4",
+   "inChips": false
+  },
+  {
+   "id": "a-cancel-class",
+   "sty": "C",
+   "q": "授業が飛んだ時の振替ってどこに載ってますか",
+   "got": "faq:d-intern",
+   "inChips": false
+  },
+  {
+   "id": "a-typhoon",
+   "sty": "C",
+   "q": "暴風警報が出た日は授業はあるのでしょうか",
+   "got": "faq:e-bad-weather",
+   "inChips": true
+  },
+  {
+   "id": "a-exam-schedule",
+   "sty": "C",
+   "q": "きまつてすとの日取りを知りたいです",
+   "got": "faq:e-first-items",
+   "inChips": false
+  },
+  {
+   "id": "a-exam-items",
+   "sty": "A",
+   "q": "テストの持ち物って何が必要？",
+   "got": "faq:e-health-items",
+   "inChips": false
+  },
+  {
+   "id": "a-exam-items",
+   "sty": "C",
+   "q": "受験時の持参物と持ち込み禁止品について教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "a-additional-exam",
+   "sty": "C",
+   "q": "ついしけんの申請の仕方をおしえて",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "a-exam-train",
+   "sty": "B",
+   "q": "試験の日に電車が止まって会場に着けなさそうなときはどうすれば？",
+   "got": "faq:a-typhoon",
+   "inChips": true
+  },
+  {
+   "id": "a-cheating",
+   "sty": "B",
+   "q": "レポートで他の人の文章をそのまま写したらどんな罰があるの？",
+   "got": "faq:a-ai",
+   "inChips": true
+  },
+  {
+   "id": "a-ai",
+   "sty": "C",
+   "q": "人工知能を活用して提出物を作成するのは許されますか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "a-sogo-kouza",
+   "sty": "B",
+   "q": "環境情報学部だけど、必ず取る授業で名前に学部名がつくのがあるの？",
+   "got": "faq:d-two-faculties",
+   "inChips": true
+  },
+  {
+   "id": "a-sogo-kouza",
+   "sty": "C",
+   "q": "ひっしゅうの総合政策学って何ですか",
+   "got": "faq:d-two-faculties",
+   "inChips": true
+  },
+  {
+   "id": "b-gakuseisho-lost",
+   "sty": "C",
+   "q": "がくせいしょうをこわしてしまいました、かえてもらえますか",
+   "got": "faq:b-shougai",
+   "inChips": false
+  },
+  {
+   "id": "b-shomeisho",
+   "sty": "A",
+   "q": "在籍証明ってどこでもらう？",
+   "got": "faq:d-circle-find",
+   "inChips": false
+  },
+  {
+   "id": "b-shomeisho",
+   "sty": "B",
+   "q": "就活で成績の証明が必要になりそうなんだけど、どこでどう出すの？",
+   "got": "faq:a-eval",
+   "inChips": false
+  },
+  {
+   "id": "b-shomeisho-genpu",
+   "sty": "B",
+   "q": "提出先から封かんされた証明書を求められたんだけど、どうすればいい？",
+   "got": "faq:d-circle-alcohol",
+   "inChips": true
+  },
+  {
+   "id": "b-tsugaku-teiki",
+   "sty": "C",
+   "q": "つうがくていきをかうてじゅんをおしえて",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "b-hoshonin",
+   "sty": "A",
+   "q": "親以外でも身元引受人になれる？",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "b-hoshonin",
+   "sty": "B",
+   "q": "親が海外にいるんだけど、叔父さんに保証人を頼んでもいいの？",
+   "got": "faq:b-ryugaku-kyugaku",
+   "inChips": true
+  },
+  {
+   "id": "b-hoshonin",
+   "sty": "C",
+   "q": "ほしょうにんを変更するときの届け出について",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "b-kyugaku",
+   "sty": "A",
+   "q": "学校を休みたい、手続きは？",
+   "got": "faq:b-kaisei",
+   "inChips": false
+  },
+  {
+   "id": "b-kyugaku",
+   "sty": "B",
+   "q": "体調を崩して半年ほど大学を休みたいんだけど、申請はどうやるの？",
+   "got": "b:alpha",
+   "inChips": false
+  },
+  {
+   "id": "b-kyugaku",
+   "sty": "C",
+   "q": "きゅうがくねがいの提出期限をおしえて",
+   "got": "faq:b-ennou",
+   "inChips": false
+  },
+  {
+   "id": "b-kyugaku-gakuhi",
+   "sty": "A",
+   "q": "休んでる間も学費かかる？",
+   "got": "faq:b-gakuhi-gaku",
+   "inChips": true
+  },
+  {
+   "id": "b-kyugaku-gakuhi",
+   "sty": "B",
+   "q": "一年目の途中で休むと授業料って返ってくる？それとも払い続ける？",
+   "got": "faq:d-intern",
+   "inChips": false
+  },
+  {
+   "id": "b-gakuhi-gaku",
+   "sty": "B",
+   "q": "入学一年目に大学へ払うお金の合計ってだいたいどれくらいなの？",
+   "got": "faq:d-ryugaku-money",
+   "inChips": false
+  },
+  {
+   "id": "b-gakuhi-gaku",
+   "sty": "C",
+   "q": "授業料とか全部ふくめた初年度納入金を知りたい",
+   "got": "faq:e-first-items",
+   "inChips": false
+  },
+  {
+   "id": "b-gakuhi-noufu",
+   "sty": "A",
+   "q": "学費の支払い期限っていつまで？",
+   "got": "faq:b-ennou",
+   "inChips": true
+  },
+  {
+   "id": "b-ennou",
+   "sty": "C",
+   "q": "支払い期日を後ろにずらしてもらえませんか",
+   "got": "faq:c-lawson",
+   "inChips": false
+  },
+  {
+   "id": "b-shogakukin-start",
+   "sty": "A",
+   "q": "奨学金の申請っていつまでにやる？",
+   "got": "faq:d-ryugaku-money",
+   "inChips": true
+  },
+  {
+   "id": "b-shogakukin-start",
+   "sty": "B",
+   "q": "お金が心配で奨学金を借りたいんだけど、新入生はまず何をすればいい？",
+   "got": "faq:c-club-room",
+   "inChips": true
+  },
+  {
+   "id": "b-shogakukin-start",
+   "sty": "C",
+   "q": "しょうがくきんの応募に入学前から準備できる書類ありますか",
+   "got": "faq:d-shogakukin-first",
+   "inChips": false
+  },
+  {
+   "id": "b-shogakukin-kingaku",
+   "sty": "A",
+   "q": "慶應の給付って年いくら？",
+   "got": "faq:b-gakuhi-gaku",
+   "inChips": true
+  },
+  {
+   "id": "b-kakei-kyuhen",
+   "sty": "A",
+   "q": "親が失業したら支援ある？",
+   "got": "faq:d-ryugaku-money",
+   "inChips": true
+  },
+  {
+   "id": "b-kakei-kyuhen",
+   "sty": "C",
+   "q": "世帯収入が激減した際に頼れる制度はありますか",
+   "got": "faq:d-research-grant",
+   "inChips": false
+  },
+  {
+   "id": "b-gakusei-kenpo",
+   "sty": "B",
+   "q": "風邪で病院に行ったんだけど、学校の互助会みたいなので払い戻しある？",
+   "got": "b:alpha",
+   "inChips": false
+  },
+  {
+   "id": "b-gakusei-kenpo",
+   "sty": "C",
+   "q": "医療給付の申請方法を教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "b-gakkensai",
+   "sty": "A",
+   "q": "学内でケガしたら保険ある？",
+   "got": "faq:d-circle-insurance",
+   "inChips": true
+  },
+  {
+   "id": "b-gakkensai",
+   "sty": "B",
+   "q": "通学の途中で転んで骨折したとき、大学の保険って使えるのかな",
+   "got": "faq:d-circle-insurance",
+   "inChips": true
+  },
+  {
+   "id": "b-kenshin",
+   "sty": "A",
+   "q": "健診サボったらどうなる？",
+   "got": "faq:registration",
+   "inChips": false
+  },
+  {
+   "id": "b-kenshin",
+   "sty": "B",
+   "q": "健康診断の日に予定が合わなかったんだけど、受けなくても大丈夫？",
+   "got": "faq:e-health-items",
+   "inChips": true
+  },
+  {
+   "id": "b-shinryojo",
+   "sty": "A",
+   "q": "キャンパスの中に病院ってある？",
+   "got": "faq:c-gates",
+   "inChips": false
+  },
+  {
+   "id": "b-shinryojo",
+   "sty": "C",
+   "q": "キャンパス内クリニックの利用条件を教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "b-kyukyu",
+   "sty": "A",
+   "q": "人が倒れてたらどうする？",
+   "got": "faq:b-gakkensai",
+   "inChips": false
+  },
+  {
+   "id": "b-kyukyu",
+   "sty": "B",
+   "q": "授業中に友達が急に倒れたんだけど、まず何をして誰に連絡すればいい？",
+   "got": "faq:b-mail",
+   "inChips": true
+  },
+  {
+   "id": "b-kyukyu",
+   "sty": "C",
+   "q": "学内での急病人への対処法を教えてほしいです",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "b-counseling",
+   "sty": "C",
+   "q": "こころの悩みを話すとプライバシーは守られますか",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "b-kenko-soudan",
+   "sty": "A",
+   "q": "体の悩みどこで相談する？",
+   "got": "faq:b-counseling",
+   "inChips": true
+  },
+  {
+   "id": "b-kenko-soudan",
+   "sty": "B",
+   "q": "一人暮らしで食事が乱れてて心配なんだけど、気軽に聞ける場所ある？",
+   "got": "faq:b-dorm",
+   "inChips": false
+  },
+  {
+   "id": "b-alcohol",
+   "sty": "A",
+   "q": "新歓でお酒すすめられたら？",
+   "got": "faq:d-circle-alcohol",
+   "inChips": false
+  },
+  {
+   "id": "b-sns",
+   "sty": "B",
+   "q": "友達と撮った写真をツイッターに載せるとき、気をつけた方がいい？",
+   "got": "faq:c-photo",
+   "inChips": true
+  },
+  {
+   "id": "b-sns",
+   "sty": "C",
+   "q": "インスタやXで発信する際の心がまえを教えて",
+   "got": "stock:unknown",
+   "inChips": false
+  },
+  {
+   "id": "b-harassment",
+   "sty": "B",
+   "q": "サークルの先輩の言動がしんどいんだけど、相談できる所ある？",
+   "got": "faq:d-circle-types",
+   "inChips": false
+  },
+  {
+   "id": "b-ihoubutsu",
+   "sty": "C",
+   "q": "忘れ物の保管場所と受け取り方を教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "b-kinen",
+   "sty": "C",
+   "q": "校内での喫煙ルールについて教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "b-kinshi",
+   "sty": "A",
+   "q": "やっちゃダメなことまとめて",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "b-kinshi",
+   "sty": "C",
+   "q": "学生が守るべき禁止事項を一覧で知りたいです",
+   "got": "faq:e-first-items",
+   "inChips": false
+  },
+  {
+   "id": "b-dorm",
+   "sty": "A",
+   "q": "大学の近くに寮ってあったりする？",
+   "got": "faq:b-gakkensai",
+   "inChips": false
+  },
+  {
+   "id": "b-dorm",
+   "sty": "C",
+   "q": "下宿先をさがすのに、先輩に相談できる場があると聞きました",
+   "got": "faq:b-shougai",
+   "inChips": false
+  },
+  {
+   "id": "b-activation",
+   "sty": "A",
+   "q": "慶應IDの初期設定どうやる？",
+   "got": "faq:e-wifi-setup",
+   "inChips": false
+  },
+  {
+   "id": "b-activation",
+   "sty": "B",
+   "q": "メールアドレスの登録で16桁のコードを入力しろって言われたけど何これ",
+   "got": "faq:b-mail",
+   "inChips": false
+  },
+  {
+   "id": "b-activation",
+   "sty": "C",
+   "q": "アカウントの有効化に必要な番号をなくしました",
+   "got": "faq:e-cns-account",
+   "inChips": false
+  },
+  {
+   "id": "b-mfa",
+   "sty": "A",
+   "q": "ログインの二段階認証ってやらなきゃ駄目?",
+   "got": "faq:keiojp",
+   "inChips": true
+  },
+  {
+   "id": "b-mfa",
+   "sty": "B",
+   "q": "keio.jpにログインしようとしたら追加の認証を求められたんだけど、設定は絶対必要？",
+   "got": "faq:keiojp",
+   "inChips": false
+  },
+  {
+   "id": "b-mfa",
+   "sty": "C",
+   "q": "たよう要素にんしょうのせってい、スマホのパスキーとかでいいんですか",
+   "got": "faq:a-exam-items",
+   "inChips": true
+  },
+  {
+   "id": "b-mail",
+   "sty": "B",
+   "q": "先生に質問メールを送りたいんだけど、普段使ってるGmailでも送って大丈夫？",
+   "got": "faq:e-mail-which",
+   "inChips": true
+  },
+  {
+   "id": "b-wifi-trouble",
+   "sty": "C",
+   "q": "無線ラン接続できません、原因の調べ方を教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "b-pc-lending",
+   "sty": "B",
+   "q": "ノートパソコンが急に起動しなくなって授業に出られない。大学に代わりはある？",
+   "got": "faq:byod",
+   "inChips": false
+  },
+  {
+   "id": "b-pc-lending",
+   "sty": "C",
+   "q": "パソコンをかしてくれるサービスってありますか?期間も知りたいです",
+   "got": "faq:e-pc-have",
+   "inChips": false
+  },
+  {
+   "id": "b-gakusekiban",
+   "sty": "A",
+   "q": "自分のクラスってどこで見れる",
+   "got": "faq:a-placement-test",
+   "inChips": true
+  },
+  {
+   "id": "b-gakusekiban",
+   "sty": "C",
+   "q": "がくせきばんごうをおしえてもらえるばしょは?",
+   "got": "faq:d-research-grant",
+   "inChips": false
+  },
+  {
+   "id": "b-jimushitsu-closed",
+   "sty": "A",
+   "q": "事務の窓口って土日もやってる？",
+   "got": "faq:office",
+   "inChips": true
+  },
+  {
+   "id": "b-jimushitsu-closed",
+   "sty": "B",
+   "q": "夏休みに事務に行きたいんだけど、閉まってる日ってある？",
+   "got": "faq:d-short-prog",
+   "inChips": true
+  },
+  {
+   "id": "b-jimushitsu-closed",
+   "sty": "C",
+   "q": "事務の受付がお休みになる日程を知りたいです",
+   "got": "b:alpha",
+   "inChips": false
+  },
+  {
+   "id": "b-toiawase",
+   "sty": "A",
+   "q": "質問したい時どこに連絡すればいい？",
+   "got": "faq:d-office-hour",
+   "inChips": false
+  },
+  {
+   "id": "b-toiawase",
+   "sty": "B",
+   "q": "奨学金のことで質問があるんだけど、どの部署に聞けばいいのかわからない",
+   "got": "faq:d-ryugaku-money",
+   "inChips": false
+  },
+  {
+   "id": "b-toiawase",
+   "sty": "C",
+   "q": "困りごとの相談先の一覧みたいなものはありますか",
+   "got": "faq:d-tanabata",
+   "inChips": false
+  },
+  {
+   "id": "c-coop-hours",
+   "sty": "C",
+   "q": "しょくどうとこうばいのえいぎょうじかんおしえて",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "c-subway",
+   "sty": "B",
+   "q": "池のそばで景色を見ながらお昼を食べたいんだけど、サンドイッチ屋さんはどこ？",
+   "got": "b:sigma",
+   "inChips": false
+  },
+  {
+   "id": "c-salt-dining",
+   "sty": "A",
+   "q": "寮の食堂って外部の人もOK？",
+   "got": "b:sigma",
+   "inChips": false
+  },
+  {
+   "id": "c-salt-dining",
+   "sty": "B",
+   "q": "国際寮の中にある食堂、寮に住んでなくてもお昼ご飯を食べに行ける？",
+   "got": "b:sigma",
+   "inChips": false
+  },
+  {
+   "id": "c-salt-dining",
+   "sty": "C",
+   "q": "イータの学食を一般の学生が利用してもいいんでしょうか",
+   "got": "b:salt",
+   "inChips": false
+  },
+  {
+   "id": "c-coop-store",
+   "sty": "A",
+   "q": "購買ってどんなものが売ってる？",
+   "got": "b:sigma",
+   "inChips": false
+  },
+  {
+   "id": "c-coop-store",
+   "sty": "B",
+   "q": "ノートとかペンを急いで買いたいんだけど、学内でどこに行けばいい？",
+   "got": "faq:c-lost",
+   "inChips": false
+  },
+  {
+   "id": "c-kamoike-lounge",
+   "sty": "B",
+   "q": "空きコマに一人でゆっくり座れるスペースって、学内にある？",
+   "got": "faq:c-lib-online-class",
+   "inChips": false
+  },
+  {
+   "id": "c-lib-enter",
+   "sty": "C",
+   "q": "館内に入場する際に必要なものを教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "c-lib-loan",
+   "sty": "A",
+   "q": "本って何日間借りれるの？",
+   "got": "faq:c-beta-village",
+   "inChips": false
+  },
+  {
+   "id": "c-lib-loan",
+   "sty": "B",
+   "q": "図書館で借りた本を返すの忘れちゃったら、お金とか取られる？",
+   "got": "b:mu",
+   "inChips": false
+  },
+  {
+   "id": "c-lib-loan",
+   "sty": "C",
+   "q": "かしだしきげんと延滞したときのばっそくを知りたい",
+   "got": "faq:e-first-items",
+   "inChips": false
+  },
+  {
+   "id": "c-lib-study",
+   "sty": "C",
+   "q": "しずかにしゅうちゅうできるせきはどこですか?",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "c-lib-floors",
+   "sty": "C",
+   "q": "とうしょかんのかいそうあんない、おしえてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "c-lib-reference",
+   "sty": "B",
+   "q": "レポートで使う文献をどうやって探したらいいか、誰かに聞ける？",
+   "got": "faq:a-ai",
+   "inChips": false
+  },
+  {
+   "id": "c-lib-reference",
+   "sty": "C",
+   "q": "資料の検索方法を司書の方に教わりたいのですが可能でしょうか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "c-lib-other-campus",
+   "sty": "C",
+   "q": "日吉や三田の蔵書を、こっちで借りることはできますか",
+   "got": "faq:e-pass-other-campus",
+   "inChips": false
+  },
+  {
+   "id": "c-lib-online-class",
+   "sty": "C",
+   "q": "ズームの講義に学内から参加したい、声を出せる部屋はありますか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "c-lib-accessible",
+   "sty": "A",
+   "q": "図書館ってバリアフリー？",
+   "got": "faq:c-bf-legend",
+   "inChips": true
+  },
+  {
+   "id": "c-lib-accessible",
+   "sty": "C",
+   "q": "視覚に障害がある学生向けのサポートが館内にあれば教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "c-pc-lending",
+   "sty": "A",
+   "q": "パソコン貸してもらえる？",
+   "got": "faq:e-pc-have",
+   "inChips": true
+  },
+  {
+   "id": "c-pc-lending",
+   "sty": "B",
+   "q": "自分のノートPCが修理中で、授業で使うものがない。大学で借りる方法ある？",
+   "got": "faq:byod",
+   "inChips": false
+  },
+  {
+   "id": "c-pc-lending",
+   "sty": "C",
+   "q": "ぱそこんのかしだしって、どのくらいの期間借りられますか",
+   "got": "faq:e-pc-have",
+   "inChips": false
+  },
+  {
+   "id": "c-pc-room",
+   "sty": "A",
+   "q": "パソコン使えるのってどの教室？",
+   "got": "faq:e-pc-have",
+   "inChips": false
+  },
+  {
+   "id": "c-pc-room",
+   "sty": "B",
+   "q": "自分のパソコンを持ってきてない日に、学内で使えるPCがある場所はどこ？",
+   "got": "faq:e-pc-have",
+   "inChips": true
+  },
+  {
+   "id": "c-pc-room",
+   "sty": "C",
+   "q": "共用のコンピュータが置いてある部屋を教えていただけますか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "c-large-printer",
+   "sty": "C",
+   "q": "だいばんぷりんたのりょうきんとうけとりかたを知りたい",
+   "got": "faq:e-first-items",
+   "inChips": false
+  },
+  {
+   "id": "c-fab",
+   "sty": "C",
+   "q": "工作機械の利用条件や講習について教えて下さい",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "c-studio",
+   "sty": "C",
+   "q": "すたじおの利用手順と、講習会が必要かどうか教えてください",
+   "got": "b:bstudio",
+   "inChips": false
+  },
+  {
+   "id": "c-gym",
+   "sty": "C",
+   "q": "運動施設の利用に予約はいるのでしょうか、利用可能時間も知りたい",
+   "got": "faq:c-club-room",
+   "inChips": false
+  },
+  {
+   "id": "c-gamma-layout",
+   "sty": "C",
+   "q": "たいいくかんの施設しょうかいと空調の有無をおしえて",
+   "got": "route",
+   "inChips": false
+  },
+  {
+   "id": "c-ground-tennis",
+   "sty": "C",
+   "q": "運動場を団体に入らず使うことは可能ですか",
+   "got": "faq:d-circle-categories",
+   "inChips": false
+  },
+  {
+   "id": "c-club-room",
+   "sty": "B",
+   "q": "うちのサークルで練習場所が欲しい。教室や体育館の予約ってどこでどうやるの？",
+   "got": "faq:d-circle-facility",
+   "inChips": true
+  },
+  {
+   "id": "c-bf-legend",
+   "sty": "B",
+   "q": "車いすで通れる道とか、多目的トイレの場所がわかる地図ってある？",
+   "got": "faq:c-lib-accessible",
+   "inChips": true
+  },
+  {
+   "id": "c-aed",
+   "sty": "A",
+   "q": "AEDってキャンパスのどこにあるの",
+   "got": "faq:c-gates",
+   "inChips": false
+  },
+  {
+   "id": "c-aed",
+   "sty": "B",
+   "q": "もしもの時のために、キャンパスの心臓マッサージの機械が置いてある場所を知りたい",
+   "got": "faq:e-first-items",
+   "inChips": false
+  },
+  {
+   "id": "c-aed",
+   "sty": "C",
+   "q": "えーいーでぃーの設置場所は、どこで確認できますか",
+   "got": "faq:a-cancel-class",
+   "inChips": true
+  },
+  {
+   "id": "c-lost",
+   "sty": "B",
+   "q": "教室にスマホを忘れたっぽいんだけど、拾ってもらった物ってどこにある？",
+   "got": "faq:a-exam-items",
+   "inChips": false
+  },
+  {
+   "id": "c-lost",
+   "sty": "C",
+   "q": "忘れ物を拾得した場合の届け先を教えていただけますか",
+   "got": "faq:b-ihoubutsu",
+   "inChips": true
+  },
+  {
+   "id": "c-photo",
+   "sty": "B",
+   "q": "授業のレポートで学内の風景を動画で撮りたいんだけど、許可って必要？",
+   "got": "faq:a-ai",
+   "inChips": true
+  },
+  {
+   "id": "c-photo",
+   "sty": "C",
+   "q": "キャンパス内でのさつえいに関するきまりはありますか",
+   "got": "faq:sokankan",
+   "inChips": false
+  },
+  {
+   "id": "c-beta-village",
+   "sty": "B",
+   "q": "合宿みたいに泊まり込みで作業できる施設があるって聞いたけど、どんな所？",
+   "got": "faq:d-circle-types",
+   "inChips": false
+  },
+  {
+   "id": "c-beta-village",
+   "sty": "C",
+   "q": "ベータビレッジの宿泊や予約について教えて下さい",
+   "got": "b:bstudio",
+   "inChips": false
+  },
+  {
+   "id": "c-eta-village",
+   "sty": "B",
+   "q": "キャンパスの中にある国際交流っぽい住居施設って、どういうところ？",
+   "got": "faq:c-gates",
+   "inChips": false
+  },
+  {
+   "id": "c-gates",
+   "sty": "B",
+   "q": "夜遅くに大学へ入るとき、どの出入り口から入ればいいの？",
+   "got": "faq:d-seminar-first",
+   "inChips": false
+  },
+  {
+   "id": "d-circle-categories",
+   "sty": "C",
+   "q": "ぶんれんやどくりつだんたいとは、どういう分類でしょうか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "d-circle-new",
+   "sty": "B",
+   "q": "同じ趣味の友達と新しく団体を立ち上げたいけど、まず何から始めればいい？",
+   "got": "faq:c-club-room",
+   "inChips": true
+  },
+  {
+   "id": "d-circle-new",
+   "sty": "C",
+   "q": "あたらしくがくせい団体を設立する手続きを教えていただけますか",
+   "got": "faq:d-ryugaku-apply",
+   "inChips": false
+  },
+  {
+   "id": "d-circle-insurance",
+   "sty": "C",
+   "q": "活動時の事故にそなえた学研災ってどんな保障ですか",
+   "got": "faq:b-gakkensai",
+   "inChips": false
+  },
+  {
+   "id": "d-circle-offcampus",
+   "sty": "C",
+   "q": "海外で活動する場合の申請と提出期限をしりたいです",
+   "got": "faq:b-ryugaku-kyugaku",
+   "inChips": true
+  },
+  {
+   "id": "d-circle-alcohol",
+   "sty": "B",
+   "q": "新歓の飲み会で先輩に一気飲みを勧められて断れなそう。どうしたらいい？",
+   "got": "faq:b-alcohol",
+   "inChips": true
+  },
+  {
+   "id": "d-tanabata",
+   "sty": "C",
+   "q": "えすえふしーのお祭りの名前と、開催日を教えてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "d-volunteer",
+   "sty": "B",
+   "q": "地域の活動に参加したいんだけど、大学で相談できる窓口とか保険の案内はある？",
+   "got": "b:alpha",
+   "inChips": false
+  },
+  {
+   "id": "d-intern",
+   "sty": "A",
+   "q": "インターンいつからOK？",
+   "got": "faq:b-ryugaku-kyugaku",
+   "inChips": true
+  },
+  {
+   "id": "d-intern-credit",
+   "sty": "A",
+   "q": "バイト先の職場体験って単位くる？",
+   "got": "faq:d-kaigai-kenshu",
+   "inChips": true
+  },
+  {
+   "id": "d-intern-credit",
+   "sty": "B",
+   "q": "夏休みに企業で働いたり現地に調査しに行ったりするんだけど、それって単位にしてもらえるのかな？",
+   "got": "faq:d-short-prog",
+   "inChips": true
+  },
+  {
+   "id": "d-intern-credit",
+   "sty": "C",
+   "q": "しゅうしょくたいけんとかフィールドワークでたんいもらえますか",
+   "got": "faq:d-overseas-insurance",
+   "inChips": false
+  },
+  {
+   "id": "d-school-rec",
+   "sty": "C",
+   "q": "がっこうすいせんってなにそれ、だれがつかえるんですか",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "d-career-path",
+   "sty": "A",
+   "q": "先輩たちって卒業後どうなってる？",
+   "got": "faq:d-ryugaku-credit",
+   "inChips": true
+  },
+  {
+   "id": "d-career-path",
+   "sty": "B",
+   "q": "SFCを出た人はだいたい就職するのか、大学院に行くのか、割合が知りたいです",
+   "got": "route",
+   "inChips": false
+  },
+  {
+   "id": "d-career-path",
+   "sty": "C",
+   "q": "そつぎょうしたあとのしんろってみんなどうしてるの",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "d-qualification",
+   "sty": "B",
+   "q": "将来先生になりたいので、SFCにいながら教員免許を取るってできますか？",
+   "got": "faq:a-teaching",
+   "inChips": true
+  },
+  {
+   "id": "d-startup",
+   "sty": "A",
+   "q": "学生で会社作りたいんだけど",
+   "got": "faq:d-circle-new",
+   "inChips": false
+  },
+  {
+   "id": "d-startup",
+   "sty": "C",
+   "q": "アントレ系の支援施設ってキャンパスにある？",
+   "got": "faq:d-ryugaku-money",
+   "inChips": false
+  },
+  {
+   "id": "d-career-abroad",
+   "sty": "A",
+   "q": "海外行ったら就活まずい？",
+   "got": "faq:d-cdp",
+   "inChips": false
+  },
+  {
+   "id": "d-career-abroad",
+   "sty": "C",
+   "q": "ryuugakuするとしゅうかつでそんする？",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "d-ryugaku-types",
+   "sty": "C",
+   "q": "海外へ行く方法の区分と、語学目的の渡航の扱いを教えてください",
+   "got": "route",
+   "inChips": false
+  },
+  {
+   "id": "d-exchange-sched",
+   "sty": "C",
+   "q": "こうかんりゅうがくのもうしこみ時期と必要なえいごのてんすう",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "d-ryugaku-fee",
+   "sty": "A",
+   "q": "留学してる間も学費は払うの？",
+   "got": "faq:b-gakuhi-noufu",
+   "inChips": true
+  },
+  {
+   "id": "d-ryugaku-fee",
+   "sty": "C",
+   "q": "海外にいる期間のがくひの扱いについて知りたいです",
+   "got": "faq:b-ryugaku-kyugaku",
+   "inChips": false
+  },
+  {
+   "id": "d-ryugaku-apply",
+   "sty": "A",
+   "q": "留学の届けっていつ出す？",
+   "got": "faq:d-ryugaku-money",
+   "inChips": false
+  },
+  {
+   "id": "d-ryugaku-apply",
+   "sty": "C",
+   "q": "りゅうがくするさいの大学へのてつづきをおしえてください",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "d-short-prog",
+   "sty": "B",
+   "q": "長期休みの間だけ、2週間から1か月くらい海外の大学で勉強できる企画ってある？",
+   "got": "faq:c-lib-study",
+   "inChips": false
+  },
+  {
+   "id": "d-short-prog",
+   "sty": "C",
+   "q": "短期の海外研修プログラム、春や夏にありますか",
+   "got": "faq:d-kaigai-kenshu",
+   "inChips": true
+  },
+  {
+   "id": "d-kaigai-kenshu",
+   "sty": "C",
+   "q": "SFCのカイガイ研修、たんいは出るんでしょうか",
+   "got": "faq:a-curriculum",
+   "inChips": true
+  },
+  {
+   "id": "d-languages",
+   "sty": "C",
+   "q": "中国語やドイツ語などの語学の授業は用意されていますか",
+   "got": "stock:period4",
+   "inChips": false
+  },
+  {
+   "id": "d-ryugaku-money",
+   "sty": "C",
+   "q": "かいがいに行くひようをおうえんしてくれるしくみ",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "d-overseas-insurance",
+   "sty": "B",
+   "q": "授業で海外に調査に行くことになったんだけど、旅行保険って入らないとだめなのかな？",
+   "got": "faq:d-circle-offcampus",
+   "inChips": true
+  },
+  {
+   "id": "d-seminar-first",
+   "sty": "A",
+   "q": "1年生でも研究会って入れる？",
+   "got": "faq:kenkyukai",
+   "inChips": true
+  },
+  {
+   "id": "d-seminar-first",
+   "sty": "C",
+   "q": "一年次から研究会に所属するにはどうしたらよろしいでしょうか",
+   "got": "faq:kenkyukai",
+   "inChips": true
+  },
+  {
+   "id": "d-research-grant",
+   "sty": "C",
+   "q": "がくせい向けの研究じょせいきんについておしえて",
+   "got": "faq:kenkyukai",
+   "inChips": false
+  },
+  {
+   "id": "d-two-faculties",
+   "sty": "C",
+   "q": "そうせいとかんじょうってなにがちがうのですか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "d-4yr",
+   "sty": "C",
+   "q": "学士と修士を短縮して取れる一貫プログラムについて",
+   "got": "faq:a-fast-grad",
+   "inChips": false
+  },
+  {
+   "id": "d-office-hour",
+   "sty": "C",
+   "q": "せんせいとはなす機会ってどこでありますか",
+   "got": "faq:d-circle-find",
+   "inChips": false
+  },
+  {
+   "id": "d-public",
+   "sty": "C",
+   "q": "こうむいんになりたい、がくないの講座とかあるの",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "d-shogakukin-first",
+   "sty": "A",
+   "q": "奨学金の申込っていつから？",
+   "got": "faq:b-shogakukin-start",
+   "inChips": false
+  },
+  {
+   "id": "d-shogakukin-first",
+   "sty": "C",
+   "q": "給付型のしょうがくきんの応募時期をはやめに知りたいです",
+   "got": "faq:d-exchange-sched",
+   "inChips": false
+  },
+  {
+   "id": "e-teiki-bus",
+   "sty": "B",
+   "q": "バスで通学する予定なんだけど、定期券はどこの窓口で、何を持って行けば買えるの？",
+   "got": "faq:b-tsugaku-teiki",
+   "inChips": true
+  },
+  {
+   "id": "e-shomeisho",
+   "sty": "C",
+   "q": "つうがくしょうめいしょ、りょうきんと住所がかわった時のあつかい",
+   "got": "faq:b-jusho-henko",
+   "inChips": false
+  },
+  {
+   "id": "e-holiday-bus",
+   "sty": "C",
+   "q": "きゅうじつじゅぎょうの日のバスのうんこうについて",
+   "got": "stock:open",
+   "inChips": false
+  },
+  {
+   "id": "e-bad-weather",
+   "sty": "A",
+   "q": "台風来たら授業は休みになる？",
+   "got": "faq:a-typhoon",
+   "inChips": true
+  },
+  {
+   "id": "e-bad-weather",
+   "sty": "B",
+   "q": "大雪や台風が来たとき、授業が休みになるのかオンラインになるのかはどこで知れるの？",
+   "got": "faq:a-typhoon",
+   "inChips": true
+  },
+  {
+   "id": "e-bad-weather",
+   "sty": "C",
+   "q": "ぼうふうけいほうのときの授業のあつかいを教えて下さい",
+   "got": "b:psi",
+   "inChips": false
+  },
+  {
+   "id": "e-entrance-ceremony",
+   "sty": "C",
+   "q": "にゅうがくしきはどこであるのでしょうか",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "e-before-ceremony",
+   "sty": "A",
+   "q": "入学式の前にも登校ある？",
+   "got": "faq:e-entrance-ceremony",
+   "inChips": false
+  },
+  {
+   "id": "e-before-ceremony",
+   "sty": "C",
+   "q": "式の前のさんがつにキャンパスへ呼ばれることはありますか",
+   "got": "faq:to-shonandai",
+   "inChips": false
+  },
+  {
+   "id": "e-first-weeks",
+   "sty": "C",
+   "q": "ごうかくご〜じゅぎょうかいしのスケジュールのながれ",
+   "got": "faq:d-exchange-sched",
+   "inChips": true
+  },
+  {
+   "id": "e-gakuseisho-issue",
+   "sty": "C",
+   "q": "がくせいしょうこうふの日にちと必要なしょるい",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "e-health-check",
+   "sty": "A",
+   "q": "健診って受けないとダメ？",
+   "got": "faq:b-kenshin",
+   "inChips": false
+  },
+  {
+   "id": "e-health-check",
+   "sty": "C",
+   "q": "健康診断は新入生もじゅしんするのでしょうか",
+   "got": "faq:b-kenshin",
+   "inChips": true
+  },
+  {
+   "id": "e-keiojp-register",
+   "sty": "A",
+   "q": "慶應IDの作り方の注意点は？",
+   "got": "faq:keiojp",
+   "inChips": true
+  },
+  {
+   "id": "e-keiojp-register",
+   "sty": "C",
+   "q": "けいおうあいでぃーのとうろくでしっぱいしないコツ",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "e-cns-account",
+   "sty": "C",
+   "q": "キャンパスネットワークのIDと全学共通IDのちがい",
+   "got": "faq:wifi",
+   "inChips": false
+  },
+  {
+   "id": "e-mail-which",
+   "sty": "A",
+   "q": "大学のメール、どれ使う？",
+   "got": "faq:b-mail",
+   "inChips": true
+  },
+  {
+   "id": "e-shinkan",
+   "sty": "B",
+   "q": "サークルの新歓に行ってみたいんだけど、変な勧誘とか危ない団体に引っかからないコツは？",
+   "got": "faq:d-circle-find",
+   "inChips": true
+  },
+  {
+   "id": "e-shinkan",
+   "sty": "C",
+   "q": "しんかんのときの注意点を教えてほしいです",
+   "got": "faq:b-kinshi",
+   "inChips": false
+  },
+  {
+   "id": "e-health-items",
+   "sty": "C",
+   "q": "しんたいけんさの日のもちものとふくそうの決まり",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "e-pc-have",
+   "sty": "C",
+   "q": "自前のパソコンで問題ないか、学内のPCも借りられるか知りたい",
+   "got": "faq:byod",
+   "inChips": true
+  },
+  {
+   "id": "e-wifi-setup",
+   "sty": "A",
+   "q": "Wi-Fi設定っていつやるの？",
+   "got": "faq:wifi",
+   "inChips": true
+  },
+  {
+   "id": "e-wifi-setup",
+   "sty": "C",
+   "q": "むせんLANのせっていって学校に来てからじゃないとだめですか",
+   "got": "faq:b-shugaku-shien",
+   "inChips": false
+  },
+  {
+   "id": "e-loaner-pc",
+   "sty": "A",
+   "q": "パソコンって貸してもらえる？",
+   "got": "faq:e-pc-have",
+   "inChips": false
+  },
+  {
+   "id": "e-loaner-pc",
+   "sty": "B",
+   "q": "パソコンが急に壊れて授業に持って行けない。大学で貸してくれる制度ってある？",
+   "got": "faq:e-pc-have",
+   "inChips": false
+  },
+  {
+   "id": "e-loaner-pc",
+   "sty": "C",
+   "q": "ノートPCのかしだしサービスはどこでうけられますか",
+   "got": "faq:byod",
+   "inChips": false
+  },
+  {
+   "id": "e-first-items",
+   "sty": "A",
+   "q": "入学時の持ち物リスト教えて",
+   "got": "faq:e-health-items",
+   "inChips": false
+  },
+  {
+   "id": "e-first-items",
+   "sty": "C",
+   "q": "新入生がよういしておくべき物をまとめて知りたい",
+   "got": "faq:e-vaccine",
+   "inChips": false
+  },
+  {
+   "id": "e-lost",
+   "sty": "A",
+   "q": "財布なくした、どこ聞く？",
+   "got": "faq:b-gakuseisho-lost",
+   "inChips": false
+  },
+  {
+   "id": "e-lost",
+   "sty": "B",
+   "q": "キャンパスでカバンの中身を落としたみたいなんだけど、どの窓口に届いてるか聞けるかな？",
+   "got": "faq:c-lost",
+   "inChips": false
+  },
+  {
+   "id": "e-lost",
+   "sty": "C",
+   "q": "わすれものを探すにはどこへいけばいいですか",
+   "got": "stock:pickFaq",
+   "inChips": true
+  },
+  {
+   "id": "e-other-campus-class",
+   "sty": "C",
+   "q": "他のキャンパスの科目をSFCの科目とつなげて取るルール",
+   "got": "faq:a-other-campus-consecutive",
+   "inChips": false
+  },
+  {
+   "id": "e-campus-size",
+   "sty": "C",
+   "q": "全体のにんずうとめんせきをおしえて",
+   "got": "stock:pickFaq",
+   "inChips": false
+  },
+  {
+   "id": "e-history",
+   "sty": "A",
+   "q": "SFCの創立っていつ頃？",
+   "got": "faq:d-tanabata",
+   "inChips": false
+  },
+  {
+   "id": "e-history",
+   "sty": "C",
+   "q": "えすえふしーのれきしについておしえてください",
+   "got": "b:psi",
+   "inChips": false
+  }
+ ]
+}
